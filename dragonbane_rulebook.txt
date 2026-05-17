@@ -1,0 +1,3345 @@
+RULEBOOK
+
+This is the second printing of this book. The following adjustments have been made:
+
+Page 42: Clarifies that the action and movement must both be performed on the character’s turn. Page 43: Clarifies that a monster that gets a free attack performs a monster attack.
+
+Clarifies that involuntary movement never triggers a free attack. Clarifies that sneak attacks cannot be performed during active combat. Page 57: Clarifies that spell ranks have no mechanical effects. Page 58: WP can be drawn from the body also with one WP left. Page 62: Clarifies that the PROTECTOR spell can be cast on the mage themselves. Page 63: Removes the sphere effect from the BANISH spell. Page 64–65: The TREAT WOUND, HEAL WOUND, and RESTORATION spells can be cast on
+
+the mage themselves. Page 88: The range of the giant’s \#6 attack is changed to 2 meters. Page 90: The goblin scout has no damage bonus and movement rate 10. Page 92: The combat behavior of harpies is clarified.
+
+LEAD DESIGNER & EDITOR Tomas Härenstam
+
+OTHER WRITERS Andreas Marklund (introductory text, monsters), Krister Sundelin (magic), Mattias Johnsson Haake (profession quotes), Nils Karlén (GM advice, tables, The Castle of the Robber Knight), Kosta Kostulas (tables)
+
+LEAD ILLUSTRATOR
+
+ADDITIONAL ART Johan Egerkrans
+
+Niklas Brandt
+
+GRAPHIC DESIGN Niklas Brandt, Christian Granath, Dan Algstrand
+
+LAYOUT
+
+TRANSLATION
+
+PROOFREADING Dan Algstrand
+
+Niklas Lundmark
+
+Brandon Bowling
+
+RULES REVIEW Jonas Ferry, Marco Behrmann, Nils Karlén, Kosta Kostulas
+
+DIGITAL PLATFORMS Martin Takaichi
+
+PR MANAGER Boel Bermann
+
+EVENT MANAGER Anna Westerling
+
+CUSTOMER SUPPORT Daniel Lehto, Jenny Lehto
+
+PLAYTESTERS Marco Behrmann, Nils Karlén, Kosta Kostulas, Anna Westerling, Jonas Ferry, Fredrik Jarl, Kristoffer Sjöö, Henric Löfqvist, Kalle Henricsson, Krister Sundelin, Andreas Ekeroot, Johan Osbjer, Niklas Fröjd, Emma Fahlström, Olle Karlsson, Mattias Strandberg, Sara Engström, Maximilian Pukk Härenstam
+
+SPECIAL THANKS TO Roger Undhagen, Orvar Säfström, Fredrik Malmberg, Anders Blixt, Pelle Nilsson, Kiku Pukk Härenstam, Stella Härenstam, Stephen Perrin, Chaosium Inc., and everyone who contributed to this game by crowfunding it and giving feedback
+
+Dragonbane is a registered trademark by Fria Ligan AB. ©2023 Fria Ligan AB
+
+ISBN 978-91-89765-26-9
+
+CHAPTER 1 IN THE OLDEST TIMES
+
+Introduction ��������������������������������������������������������������������������5
+
+CHAPTER 2 YOUR PLAYER CHARACTER
+
+Kin ���������������������������������������������������������������������������������������������9 Profession ���������������������������������������������������������������������������� 13 Artisan �����������������������������������������������������������������������������14 Bard ���������������������������������������������������������������������������������15 Fighter �����������������������������������������������������������������������������16 Hunter �����������������������������������������������������������������������������17 Knight ������������������������������������������������������������������������������18 Mage ��������������������������������������������������������������������������������19 Mariner ���������������������������������������������������������������������������20 Merchant �������������������������������������������������������������������������21 Scholar �����������������������������������������������������������������������������22 Thief ���������������������������������������������������������������������������������23 Age ������������������������������������������������������������������������������������������ 24 Name ������������������������������������������������������������������������������������� 24 Attributes ����������������������������������������������������������������������������� 24 Derived Ratings ����������������������������������������������������������������� 25 Skills ��������������������������������������������������������������������������������������� 25 Heroic Abilities ������������������������������������������������������������������ 26 Gear ���������������������������������������������������������������������������������������� 27 Encumbrance ��������������������������������������������������������������������� 28 Appearance ������������������������������������������������������������������������� 28 Experience ��������������������������������������������������������������������������� 29
+
+CHAPTER 3 SKILLS
+
+Roll the Dice ����������������������������������������������������������������������� 31 Boons & Banes ������������������������������������������������������������������� 32 Opposed Rolls �������������������������������������������������������������������� 33 The Core Skills ������������������������������������������������������������������� 33 Heroic Abilities ������������������������������������������������������������������ 35
+
+CONTENTS
+
+CHAPTER 4 COMBAT & DAMAGE
+
+Rounds & Initiative ���������������������������������������������������������� 41 Actions & Movement ������������������������������������������������������ 42 Melee Combat �������������������������������������������������������������������� 45 Ranged Combat ����������������������������������������������������������������� 49 Damage ��������������������������������������������������������������������������������� 50 Conditions ��������������������������������������������������������������������������� 51 Healing & Resting ������������������������������������������������������������� 52 Other Hazards �������������������������������������������������������������������� 52 Riding Animals ������������������������������������������������������������������ 55 Improvised Weapons ������������������������������������������������������� 55
+
+CHAPTER 5 MAGIC
+
+Schools of Magic ��������������������������������������������������������������� 57 Spells �������������������������������������������������������������������������������������� 57 Casting Spells ��������������������������������������������������������������������� 58 Learning Magic ������������������������������������������������������������������ 61 Spell List ������������������������������������������������������������������������������� 61 General Magic ���������������������������������������������������������������61 Animism ��������������������������������������������������������������������������63 Elementalism �����������������������������������������������������������������65 Mentalism �����������������������������������������������������������������������69
+
+CHAPTER 6 GEAR
+
+Armor & Helmets ������������������������������������������������������������� 73 Melee Weapons ������������������������������������������������������������������ 74 Musical Instruments �������������������������������������������������������� 75 Ranged Weapons ��������������������������������������������������������������� 75 Clothes ���������������������������������������������������������������������������������� 75 Trade Goods ����������������������������������������������������������������������� 76 Studies & Magic ����������������������������������������������������������������� 77 Light Sources ���������������������������������������������������������������������� 78 Tools ��������������������������������������������������������������������������������������� 78 Containers ��������������������������������������������������������������������������� 79 Medicine ������������������������������������������������������������������������������� 79
+
+Services ��������������������������������������������������������������������������������� 80 Hunting & Fishing ������������������������������������������������������������ 81 Means of Travel������������������������������������������������������������������ 81 Animals �������������������������������������������������������������������������������� 81
+
+CHAPTER 7 BESTIARY
+
+Demon ���������������������������������������������������������������������������������� 85 Dragon ���������������������������������������������������������������������������������� 86 Ghost ������������������������������������������������������������������������������������� 87 Giant �������������������������������������������������������������������������������������� 88 Giant Spider ������������������������������������������������������������������������ 89 Goblin ����������������������������������������������������������������������������������� 90 Griffon ����������������������������������������������������������������������������������� 91 Harpy ������������������������������������������������������������������������������������� 92 Manticore ����������������������������������������������������������������������������� 93 Minotaur ������������������������������������������������������������������������������ 94 Orc ������������������������������������������������������������������������������������������ 95 Skeleton �������������������������������������������������������������������������������� 96 Troll ���������������������������������������������������������������������������������������� 97 Wight ������������������������������������������������������������������������������������� 98 Common Animals ������������������������������������������������������������ 99 Vampiric Bats ��������������������������������������������������������������������� 99
+
+CHAPTER 8 ADVENTURES
+
+Journeys ������������������������������������������������������������������������������101 The Gamemaster’s Role ������������������������������������������������104 Non- Player Characters �������������������������������������������������104 Creating Adventures ������������������������������������������������������107 Campaigns �������������������������������������������������������������������������112 The Castle of the Robber Knight�������������������������������113
+
+PREFACE
+
+Sitting by a fireplace in an old house by a lake in the woods, as dusk turned to night outside, listening intently to my older brother vividly describing the fierce orcs facing me. Grabbing the strange and magical polyhedral dice, getting ready to fight – or die.
+
+That’s the earliest memory I can recollect of playing Drakar och Demoner, a game that was synonymous with roleplaying games for a generation of Swedish kids. It was the summer of 1985, and little did I know what lasting impact that moment would have on my life.
+
+In spite of what its name might suggest, the origins of this game are found in the early Chaosium titles. Its very first edition in 1982 was a direct translation of Magic World. The game soon took a life of its own, evolving through a dozen various editions in Sweden over the decades.
+
+Now, returning a reimagined Drakar och Demoner to an international audience under the title Dragonbane, we had to ask ourselves – what is this game, really?
+
+For us, and many others in the Swedish roleplaying community, Drakar och Demoner was a touchstone of our hobby and needed no definition or explanation. For the rest of the roleplaying world, this game was completely unknown.
+
+Our quest was to journey far and wide into four decades of Nordic roleplaying history and find the essen- tial elements of this game. What truly made it great. Then, to bring those pieces of legacy back to life and mold them into a new game for the 2020s, using four decades of evo- lution in game design and our own decade of creating Free League RPGs.
+
+The end result is a fantasy roleplaying game full of magic, mystery, and adventure – designed from the ground up to facilitate fast and furious play, with very little prep time and adventures that are a breeze to run.
+
+Though a toolbox allowing you to tell fantasy stories of all kinds, Dragonbane is a game with room for laughs at the table and even a pinch of silliness at times – while at the same time offering brutal challenges for the adventur- ers. We call this playstyle mirth and mayhem roleplaying – great for long campaigns but also perfect for a one-shot if you just want to have some quick fun at your table for a night.
+
+This is the next step in a journey that started over 40 years ago. We are thrilled to have you along for the ride.
+
+– Tomas Härenstam, Stockholm, December 2022
+
+IN THE OLDEST TIMES
+
+elcome to the Dragonbane roleplaying game\! This book contains the full core rules of the game. To play, you will also need an adventures, either officially published (such as The Castle of the Robber Knight at the end of this book or The Secret of the Dragon Emperor in the full Dragonbane Core Set) or created by your- self – tools and advice for that can be found in chapter 8.
+
+THE PLAYERS All players except one portray adventurers in the world of Dragonbane. These individuals are called player characters. You decide what your player character thinks and feels, what they do and say – but not what happens to them. It is your job as a player to immerse yourself in your character.
+
+Dragonbane is best suited for three to five characters. It can be played with more or fewer players than that, but then you may have to make certain adjustments to their adventures to keep things balanced.
+
+It was in the oldest times, before the world was covered in forest and iron was tamed by dwar- ven masters. Before the advent of humanity and the mastery of the bread and ale- making arts. The world was then ruled by dragons and demons. Yes, draconic serpents and demonic creatures were the princes and princesses of the oldest times. They were the primordial forces through which the world and its primeval matter was formed: the sky, the mountains, and the fiery oceans of magma and unthinking life.
+
+They were opposing principles that made the world complete. Law and order versus chaos and madness, the stable and fixed versus the wild and eternally fluid.
+
+Dragons versus demons. The most ancient records tell of a draconic empire that once spanned much of the known world, where the emperor’s peace was upheld by cruel dragon- mounted knights. But the texts also contain traces of another great power from a different age, governed by demon princes who shrouded the world in madness and savage rage.
+
+Remnants of these realms still rest in the earth beneath our feet. In the depths of the great
+
+INTRODUCTION
+
+CHAPTER 1 – IN THE OLDEST TIMES
+
+5
+
+forests and the chasms of the mountains slum- ber memories from ancient eras when vicious beasts reigned.
+
+The hostility between dragons and demons has brought death and ruin upon their ancient civilizations. It seems almost like a fundamental law of nature – that anything created by drag- ons alone is corrupted by demons, and that any- thing born of demonic will is burned to ashes by dragonfire.
+
+However, this basic and incontrovertible truth also gives cause for hope, for it has created the conditions for other nations, where humans and other races have been able to flourish and go their own way.
+
+But the ancient guardians of order and destruction will never leave the world to its fate. As sure as night follows day, the time will come again when dragons and demons contend for power over humanity, nature, and the eternal mysteries.
+
+– Excerpt from Godmundag the Elder’s Impe- rial Chronicle of the Oldest Times and their Remnants
+
+THE GAMEMASTER The final player is the Gamemaster, or GM for short. The GM describes the world of Dragonbane to you, portrays the people you encounter on your treasure hunts (so- called non- player characters, or NPCs) and controls the monsters lurking in the depths.
+
+The game is a conversation between the players and the GM, back and forth, until a critical situation arises where the outcome is uncertain. Then it is time to break out the dice – read more about that below.
+
+It is the GM’s job to put obstacles in your path and challenge your player characters, forcing them to show what they are really made of. But it is not up to the GM to decide everything that happens in the game – and certainly not how your story is supposed to end. That is decided in the game. It is what you are playing to find out.
+
+ROLLING DICE Playing Dragonbane is a conversation between the GM and the players, back and forth, until a dramatic or challenging situation arises where the outcome is uncertain. Then it is time to roll dice.
+
+Dragonbane uses different types of dice – with four, six, eight, ten, twelve, and twenty sides. In the rules these dice are referred to as D4, D6, D8, D10, D12, and D20. You will find such dice in the boxed Dragonbane Core Set, and they are also available separately. Rolling a D3 means rolling a D6 and dividing the result by two (rounding up).
+
+Multiple Dice: The rules often ask you to roll multiple dice of the same type and add the results together. For example, rolling 2D6 means that you roll two six- sided dice and add the results.
+
+Skill Rolls: To determine whether an action succeeds or fails, you usually roll a D20. Rolling equal to or under your skill level means that the action succeeds. If you have a boon, you roll two D20s for that action and only count the lowest result. If you have a bane, you also roll two D20s, but instead only count the highest result. Skill rolls are explained in more detail in chapter 3.
+
+PLAYING ONLINE Dragonbane is traditionally played with the gaming group gathered around a table. But if the group finds it difficult to get together physically, it can just as easily be played online. There are complete Dragonbane modules for several popular virtual table platforms. You can read more about playing online at the Free League website.
+
+Most of the rules in this game are written in the second person – i.e., speaking to “you.” Rules that apply to you also apply to others in the game, both player characters and NPCs (char- acters controlled by the Game master), unless expressly stated otherwise.
+
+YOU AND OTHERS
+
+CHAPTER 1 – IN THE OLDEST TIMES
+
+6
+
+PLAYING SOLO Do you want to try Dragonbane on your own before getting a group together? Or is it sometimes difficult to gather your group? Using the booklet Alone in Deepfall Breach found in the boxed Dragonbane Core Set, you can play Dragonbane solo, as a lone adventurer venturing into Deepfall Breach in the Misty Vale.
+
+PLAYING SAFELY In Dragonbane you are largely in control of the story, and with this comes responsibility. The player characters will face great danger and difficult challenges, but no player should find the situations they experience unpleasant or offensive. It is important that everyone around the gaming table is having fun and feeling safe.
+
+Before starting the game, talk things through and see if someone wants certain subjects to be kept out of the game. Always respect a player who wants to pause and discuss what is happening in the game, or even leave the table if the player so chooses. And you may also want to talk about what happened after the game session.
+
+WHAT IS A ROLEPLAYING GAME? If you have made your way here without knowing what a roleplaying game is, congratulations\! Welcome to a rewarding and creative hobby. Roleplaying is a unique form of gaming that combines tabletop dice rolling with storytelling. Roleplaying games give you a set of rules and let you create your own story with your friends in a way that books, movies, TV, and even video games cannot.
+
+For advice, tools, and inspiration, please visit our web- site freeleaguepublishing.com. There, you can find a forum dedicated to Dragonbane. There are also pages and groups dedicated to the game on social media.
+
+STR = Strength CON = Constitution AGL = Agility INT = Intelligence WIL = Willpower CHA = Charisma HP = Hit Points WP = Willpower Points GM = Gamemaster NPC = Non- Player Character
+
+ABBREVIATIONS
+
+START PLAYING\! Adventure awaits in the world of Dragonbane\! All you need to do to get started is the following:
+
+1\. Decide who will be the
+
+Gamemaster. 2. The other players each create a
+
+character (next chapter) or pick one of the pre-generated player characters included in the boxed Dragonbane Core Set. 3. The GM familiarizes themselves with this rulebook and reads the adventure you will play. The players are welcome to read the rules as well, but must not read the adventure itself. 4. Let the game begin\!
+
+Sidebars like this one, in green, describe optional rules. They give the game more depth and complexity, but the game works fine without them. You might want to start playing without them and add them as you become more familiar with the game.
+
+OPTIONAL RULES
+
+CHAPTER 1 – IN THE OLDEST TIMES
+
+7
+
+Three units are used to measure time in Dragon bane. Rounds are used in combat, while the stretch and the shift are used in other situations.
+
+UNIT OF TIME DURATION ENOUGH TIME TO
+
+Round 10 seconds Perform an action in combat,
+
+take a round rest (page 52).
+
+Stretch 15 minutes Explore a room, take a
+
+stretch rest (page 52).
+
+Shift 6 hours Hike for 15 kilometers, take a
+
+shift rest (page 52).
+
+MEASURING TIME
+
+YOUR PLAYER CHARACTER
+
+KIN
+
+There are six playable kin in Dragonbane: human, halfling, dwarf, elf, mallard, and wolfkin. Humans are the most common kin, but you are free to choose any of them. You can also roll your kin using the table below. All kin are briefly described below.
+
+Innate Ability: Each kin has an innate ability that no other kin can learn (mallards have two). In most cases, using such abilities requires Willpower Points (WP). Write down your innate ability in the Abilities & Spells section on your character sheet.
+
+LANGUAGE All player characters in Dragonbane can speak, read, and write a common language, which for simplicity’s sake is called the common tongue. Most creatures the player characters encounter know this language, but there may be exceptions. Non-human kin often have their own lan- guages that few humans understand. To understand other languages, the LANGUAGES skill is used.
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+he adventurer you play in Dragonbane is called your player character. They are your avatar, your eyes and ears in the game world. Take your charac- ter seriously and portray them as if they were a real person. Try to truly put yourself in the character’s shoes. It will be more fun that way. At the same time, you should not try to protect your character from all danger. The purpose of the game is to create an exciting story – to achieve this you will have to take risks.
+
+Over the course of the game your player character will change and grow. Their skills can be improved through experience, but you may also see their personality evolve in ways that cannot be measured in numbers. That is when your character really comes to life.
+
+Character Sheet: To create your player character you need a character sheet. You can photocopy the sheet at the end of this book, or download character sheets from the Dragonbane website.
+
+PRE-GENERATED CHARACTERS In the boxed Dragonbane Core Set, you will find five pre-generated player characters with filled-in character sheets. You can use them to get started right away, or simply as inspiration when creating your own player characters.
+
+D12 KIN
+
+1–4 Human
+
+5–7 Halfling
+
+8–9 Dwarf
+
+10 Elf
+
+11 Mallard
+
+12 Wolfkin
+
+9
+
+This chapter explains in detail how to create your player character. The summary below gives you an overview of the process. Grab a character sheet and a pencil and follow these steps:
+
+1\. Choose or roll your kin. 2. Note your innate ability. 3. Choose or roll your profession. 4. Choose or roll your age. 5. Choose or roll your name. 6. Roll your attributes. 7. Calculate your derived ratings. 8. Choose your trained skills. 9. Note your heroic ability. 10. Choose or roll your weakness (optional).
+
+11\. Choose or roll your gear. 12. Choose or roll your memento (optional). 13. Choose or roll your appearance.
+
+CREATING YOUR CHARACTER
+
+HUMAN Humans are the last-born. The other kin have songs and legends about times before the dawn of humanity. Today the humans have spread across much of the known world. Many are peasants living in little villages clustered around castles and palaces. Others are warriors sworn to protect the peasants and their vulnerable settlements, markets, and trade caravans from the dangers of the world. Still more are adventurers: fearless humans who venture into the unknown in search of glory, gold, and knowledge. ✦ Willpower Points: 3
+
+When rolling for a skill, you can choose to make the roll using another skill of your choice. You must be able to justify how you use the selected skill instead of the normal one. The GM has the final word, but should be lenient.
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+10
+
+D6 FIRST NAME
+
+1 Joruna
+
+2 Tym
+
+3 Halvelda
+
+ABILITY: ADAPTIVE
+
+D6 FIRST NAME
+
+4 Garmander
+
+5 Verolun
+
+6 Lothar
+
+HALFLING Halflings are short humanoids often found in hilly farmlands where they live in earthen dwellings with well- stocked larders. They are modest and amiable by nature, with a natural affinity for hearth and home. Halflings are neither warlike nor ambitious, but highly drawn to epic tales and beautiful songs from days long gone. From time to time, this desire can lead them to leave the safety of their homes in search of grand adventures. Because of their vulnerability and fear of “the tall ones,” they are good at staying hidden and quickly getting out of critical situations.
+
+✦ Willpower Points: 3 You can activate this ability when attacking someone who harmed you in the past (at least 1 point of damage) and get a boon to the roll. It does not matter when the damage was inflicted. It may be wise to write down the names of every- one who harms you, so you do not forget them.
+
+DWARF Dwarves are the oldest of the elder folk, at least according to their own chroniclers. They are an immensely proud and traditional people whose culture is steeped in ancient customs and grandiose ballads of heroic ancestors. Dwarves feel a strong connection with the bedrock and the roots of the world. They are skilled blacksmiths and artisans, admired for their ability to craft wondrous items of precious metal, as well as of iron and stone. Dwarves are also known as fierce warriors armed with axes, war hammers, and other heavy melee weapons forged in their underground smithies.
+
+D6 FIRST NAME
+
+1 Snappy
+
+2 Brine
+
+3 Cottar
+
+D6 FIRST NAME
+
+4 Bumble
+
+5 Perrywick
+
+6 Theoline
+
+D6 FIRST NAME
+
+1 Tinderrock
+
+2 Halwyld
+
+3 Tymolana
+
+D6 FIRST NAME
+
+4 Traut
+
+5 Urd
+
+6 Fermer
+
+✦ Willpower Points: 3 You can activate this ability when dodging an attack, getting a boon to the EVADE roll.
+
+ABILITY: HARD TO CATCH
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+11
+
+ABILITY: UNFORGIVING
+
+MALLARD The origin of the mallards is shrouded in mystery. Some scholars claim that they came from a mighty island realm that was swallowed by the sea thousands of years ago; others believe them to be the result of a failed magical experiment. Whatever the truth may be, these feathered humanoids are a common sight in the world. They have a knack for trade, and their agitated quacking is often an integral part of the soundscape around marketplaces and trade caravans. However, some mallards seek their
+
+ELF
+
+fortunes as brigands, pirates, or mercenaries. Despite their diminutive size, they are fierce in battle and feared by Elves are an ancient kin that for eons have watched over
+
+many for their murderous rage. the forests of the world. They are guided by the stars which they regard as divine beings capable of peering
+
+D6 FIRST NAME into the deepest mysteries. Elven culture is meditatively introverted and sometimes difficult for outsiders to
+
+1 Qwucksum
+
+understand. However, it is clear that they are driven by
+
+2 Splats other, more metaphysical concerns than the lust for gold and glory often found in dwarves and humans. Nonethe-
+
+3 Moggee
+
+less, their kin includes many powerful warriors, widely respected and praised by the bards for their skill with both sword and bow.
+
+✦ Willpower Points: 3 Mallards tend to have a choleric temper. You can activate this ability (no action) when making a skill roll and get a boon to the roll. You also become Angry, if you’re not already. This ability cannot be used for rolls against INT or INT- based skills.
+
+D6 FIRST NAME
+
+4 Groddy
+
+5 Blisandina
+
+6 Hackleswell
+
+D6 FIRST NAME
+
+1 Arasin
+
+2 Illyriana
+
+3 Galvander
+
+D6 FIRST NAME
+
+4 Tyrindelia
+
+5 Erwilnor
+
+6 Andremone
+
+✦ Willpower Points: — As an elf, you can meditate deeply during a stretch rest. You heal an additional D6 HP and a D6 extra WP, and can recover from an additional condition. You are completely unresponsive during your meditation and cannot be awakened.
+
+ABILITY: INNER PEACE
+
+✦ Willpower Points: — As a mallard you also get a boon to all SWIM- MING rolls. You always move at full speed in or under water.
+
+ABILITY: ILL-TEMPERED
+
+ABILITY: WEBBED FEET
+
+WOLFKIN Wolfkin are the untamed fury of the wilds. They may be highly intelligent creatures, and like the elves, they have an unfailing tendency to sink into thought, pondering the mysteries of the universe. But simmering under the surface are ancient hunting instincts and an unquenchable anger over past wrongs committed against wolfkin, wolves, and the wil- derness in general. As hunters and pathfinders they are second to none, but wolfkin can also be found as heavily armed mercenaries, or mystics and healers in human settlements.
+
+D6 FIRST NAME
+
+D6 FIRST NAME
+
+1 Wyld
+
+4 Obdurian
+
+2 Wolfshadow
+
+5 Frostbite
+
+3 Lunariem
+
+6 Wuldenhall
+
+ABILITY: HUNTING INSTINCTS
+
+✦ Willpower Points: 3 You can use this ability to designate a creature in sight, or a creature you can catch the scent of, as your prey. This counts as an action in combat. You can follow the scent of your prey for a full day, and you can spend 1 further WP (not an action) to gain a boon for an attack against your prey.
+
+PROFESSION
+
+The next step is to select a profession for your character. All the player characters are adventurers, but you have learned a thing or two before the game begins. Your choice of profession will determine much about your character, mainly your skills – six of your trained starting skills (page 25) must be chosen from those listed for your profession. Your profession also determines what gear you start out with and which heroic ability you get. There are ten professions to choose from, all described on the following pages. You are free to select a profession or roll for one randomly using the table to the right.
+
+D10 PROFESSION
+
+1 Artisan
+
+2 Bard
+
+3 Fighter
+
+4 Hunter
+
+5 Knight
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+13
+
+D10 PROFESSION
+
+6 Mage
+
+7 Mariner
+
+8 Merchant
+
+9 Scholar
+
+10 Thief
+
+“Now this may sound a bit pretentious, but whatever you’re making, you must be able to imagine the finished thing, and then make it real. That’s the whole of it, really. Well, tools are important too. Good tools.”
+
+– Bore Tvartoff
+
+With a decent hammer, a trowel, and mortar, a skilled
+
+D6 GEAR artisan can astonish even the gods. They are proud individuals, these tamers of nature and physical matter. Whether they be builders, bricklayers, wainwrights, blacksmiths, tanners, or coopers, the artisans are driven
+
+1–2 Warhammer (small), leather armor, black- smith’s tools, torch, flint & tinder, D8 food rations, D8 silver
+
+by a solemn mission to bring order and structure out of
+
+3–4 Handaxe, leather armor, carpentry tools, torch, chaos. They construct bridges, houses, and fortifications,
+
+rope (hemp), flint & tinder, D8 food rations, forge weapons and tools, mold pots and jugs, make
+
+D8 silver barrels, and craft leather armor from tanned animal hides. Every village needs capable artisans, and they are often greatly respected for their practical and extremely useful
+
+5–6 Knife, leather armor, tanner’s tools, lantern,
+
+lamp oil, flint & tinder, D8 food rations, D8 silver
+
+expertise.
+
+D6 NICKNAME ✦ Key Attribute: STR ✦ Skills: Axes, Brawling, Crafting, Hammers, Knives,
+
+1 Stonehammer
+
+Sleight of Hand, Spot Hidden, Swords
+
+2 Woodcleaver ✦ Heroic Ability: Master Blacksmith, Master Carpenter
+
+or Master Tanner
+
+3 Strongfist
+
+D6 NICKNAME
+
+4 Barrelmaker
+
+5 Bridgebuilder
+
+6 Ironmaster
+
+ARTISAN
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+14
+
+“A few off-key notes, a couple of lost words,
+
+or a troll-sneeze that sprays over the audience – it doesn’t matter. To captivate an audience, all you truly need is charisma, that you shine like a mid- summer sun. Like me\!”
+
+– Malva Sneezeweed
+
+The memory of ancient deeds and riches is kept alive by the bards. They are singers, musicians, and entertainers. Many travel between inns and marketplaces where they earn their keep through the telling of ballads and fairy tales; others perform at princely courts, reciting glorious poems of dragons and heroic kings. Many bards see them- selves as chroniclers responsible for preserving contempo- rary deeds in the memory of future generations. They are always on the lookout for people and achievements worthy of being immortalized in epic verse, and any bard worth their salt is always working on at least a few masterpieces of song, music, or poetry.
+
+✦ Key Attribute: CHA ✦ Skills: Acrobatics, Bluffing, Evade, Knives, Languages,
+
+Myths & Legends, Performance, Persuasion ✦ Heroic Ability: Musician
+
+D6 GEAR
+
+1–2 Lyre, knife, oil lamp, lamp oil, flint & tinder, D6
+
+food rations, D8 silver
+
+3–4 Flute, dagger, rope (hemp), torch, flint & tinder,
+
+D6 food rations, D8 silver
+
+5–6 Horn, knife, torch, flint & tinder, D6 food rations,
+
+D8 silver
+
+D6 NICKNAME
+
+1 Odemaker
+
+2 Talespinner
+
+3 Silvervoice
+
+D6 NICKNAME
+
+4 Gildenclef
+
+5 Honeytongue
+
+6 Rhymesmith
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+BARD
+
+15
+
+“Uh, well, of course a
+
+warrior must be able to kill things. Creatures and monsters and such. Being able to avoid getting killed is also good. Then... well, there are dif- ferent weapons, different techniques and... Anyway, the basis is simple: kill, and avoid dying.”
+
+– Norde from Boar Ridge
+
+Fighters earn their living by following the way of the sword. It may of course also be the way of the spear or crossbow, but a fighter’s specialty is always weapon proficiency and violence. But this is not to say that all fighters are driven by bloodlust. For some it is a matter of professional pride to achieve the maximum effect with minimal bloodshed; others are lazy and prefer saber-rattling to actual combat. Many fighters are troubled souls, haunted by nightmares and bad memories of a life spent in the company of death. They can therefore be surprisingly sentimental, prone to tears and compassionate embraces.
+
+✦ Key Attribute: STR ✦ Skills: Axes, Bows, Brawling, Crossbows, Evade,
+
+Hammers, Spears, Swords ✦ Heroic Ability: Veteran
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+FIGHTER
+
+16
+
+D6 GEAR
+
+1–2 Broadsword/battle axe/morning star, small
+
+shield, chainmail, torch, flint & tinder, D6 food rations, D6 silver
+
+3–4 Short sword/handaxe/short spear, light cross-
+
+bow, quiver, leather armor, torch, flint & tinder, D6 food rations, D6 silver
+
+5–6 Long spear, studded leather armor, open helmet,
+
+torch, flint & tinder, D6 food rations, D6 silver
+
+D6 NICKNAME
+
+1 Gravemaker
+
+2 Grimjaw
+
+3 Windthaw
+
+D6 NICKNAME
+
+4 Coldsteel
+
+5 The Fearless
+
+6 The Butcher
+
+“What is not needed to become a skilled
+
+hunter? Agility, stealth? Accuracy with the bow, cunning with the snares? Knowledge of the hunting ground and prey? Sure, you can do without nice manners and fancy talk, but who cares about such nonsense?”
+
+– Ciliel Nightlake
+
+Snaring hares, knifing boars, and silently stalking deer in the depths of the forest with arrows on their bowstrings. Hunters live for the hunt and the catch. Killing one’s prey in a respectful manner and making use of all its parts – for food, clothes, tools, and weapons – is a sacred calling for all true hunters. Their home and destiny are in the wilds; the magnificent, untamed, and cruel. That is where they find peace of mind and gather their strength. That is where their ruthless gods dwell. Many hunters are therefore quite solitary and sometimes find it difficult to behave properly among people.
+
+✦ Key Attribute: AGL ✦ Skills: Acrobatics, Awareness, Bows, Bushcraft, Hunting & Fishing, Knives, Slings, Sneaking ✦ Heroic Ability: Companion
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+HUNTER
+
+17
+
+D6 GEAR
+
+1–2 Dagger, short bow, quiver, leather armor, sleep- ing pelt, torch, flint & tinder, rope (hemp), snare, D8 food rations, D6 silver
+
+3–4 Knife, longbow, quiver, leather armor, sleeping
+
+pelt, torch, flint & tinder, rope (hemp), fishing rod, D8 food rations, D6 silver
+
+5–6 Dagger, sling, leather armor, sleeping pelt,
+
+torch, flint & tinder, rope (hemp), snare, D8 food rations, D6 silver
+
+D6 NICKNAME
+
+1 Forest Fox
+
+2 Wolfbane
+
+3 Pathfinder
+
+D6 NICKNAME
+
+4 The Weathered
+
+5 Bloodhunger
+
+6 Shadowbolt
+
+“First, you must believe in
+
+something. Then you must be prepared to fight and die for this something. Finally, you need to study, train, and practice until you reach the heights of a worthy champion. After that, you are ready to… obey and serve.”
+
+– Gloriel Sunstreak
+
+Knights are warriors who have sworn fealty to a higher
+
+D6 GEAR power, such as an order of knights, a liege lord, or a god. This oath of fealty lies at the heart of their worldview and existence. It always includes rules and principles the knight must obey in thought and deed. Demands for chivalry
+
+1–2 Broadsword/morning star, shield (small), plate armor, great helm, torch, flint & tinder, D6 food rations, D12 silver
+
+and a noble mind are often combined with an implacable
+
+3–4 Flail/warhammer (small), shield (small), chain- hatred for anything deemed contrary to the spirit of the
+
+mail, open helmet, torch, flint & tinder, D6 food oath. Many knights are part of an order, but there are also
+
+rations, D12 silver lone knights who have devoted their lives to defending something specific – perhaps a person or a place – that gives their lives a higher purpose.
+
+5–6 Short sword, lance, shield (small), chainmail,
+
+open helmet, combat trained horse, D6 food rations, D12 silver
+
+✦ Key Attribute: STR ✦ Skills: Beast Lore, Hammers, Myths & Legends, Per-
+
+D6 NICKNAME formance, Persuasion, Riding, Spears, Swords ✦ Heroic Ability: Guardian
+
+1 Dragonheart
+
+2 Goldlance
+
+3 Griffinclaw
+
+D6 NICKNAME
+
+4 The Noble
+
+5 Gleamhelm
+
+6 Mourningcloak
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+KNIGHT
+
+18
+
+“Forget it, just forget it – if you must ask what
+
+it takes to master the secrets of magic, you don’t have it. Or, you can possibly learn to chat with animals or peep on faraway things, but real magic, the magic of the elements... Never\!”
+
+– Cyril Firemane
+
+Mages have learned to control the ancient forces that permeate nature and the primordial structures of the world. It is not a uniform profession, but includes a motley crew of individualists and headstrong eccentrics. There are several schools of magic with different views of what magic is and how it works. In the core game you can choose between Ani- mism, Elementalism, and Mentalism. Animists believe that everything in the world has a spiritual presence and see magic as a power lent by nature’s spirits. Elementalists describe magic in terms of four elements that consti- tute the essence of all things. Mentalists say that magic comes from within, and that it can be manifested through self-control and discipline.
+
+✦ Key Attribute: WIL ✦ Animist Skills: Animism, Beast Lore, Bushcraft,
+
+Evade, Healing, Hunting & Fishing, Sneaking, Staves ✦ Elementalist Skills: Elementalism, Awareness,
+
+Evade, Healing, Languages, Myths & Legends, Spot Hidden, Staves ✦ Mentalist Skills: Mentalism, Acrobatics, Awareness,
+
+Brawling, Evade, Healing, Languages, Myths & Legends ✦ Heroic Ability: As a mage, you don’t get a starting
+
+heroic ability. Instead, you get your magic.
+
+D6 GEAR
+
+1–2 Staff, orbuculum, grimoire, torch, flint & tinder,
+
+D6 food rations, D8 silver
+
+3–4 Knife, wand, grimoire, torch, flint & tinder,
+
+As a mage you can use magic. You must select a
+
+D6 food rations, D8 silver
+
+school of magic – either Animism, Elementalism,
+
+5–6 Amulet, grimoire, sleeping pelt, torch, flint & or Mentalism – which then becomes one of your
+
+tinder, D6 food rations, D8 silver trained skills. As a newly created mage you may choose three rank 1 spells and three magic tricks. You can only choose spells from your school or
+
+D6 NICKNAME
+
+from the general magic category. You also get
+
+1 Rootheart a grimoire where all your spells are listed. For more on magic, see chapter 5.
+
+2 Crookback
+
+3 Graycape
+
+D6 NICKNAME
+
+4 Stormhand
+
+5 Stafflimper
+
+6 Shadowbringer
+
+MAGIC
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+MAGE
+
+19
+
+“You don’t become a sailor, you
+
+are born one. If you feel the bedrock sway where you walk, you know you belong out on the waves. Is there anything sadder than seeing a born mariner wobble around on solid ground?”
+
+– Friga Seawife
+
+Foaming waves and ships sailing fearlessly through dark
+
+D6 GEAR waters are the domain and calling of the mariner. Some seafarers are forever sworn to the high seas; others stick to rivers and lakes. But all of them have one thing in common: a symbiotic relationship with the element of water – often a
+
+1–2 Dagger, short bow, quiver, rope (hemp),
+
+grappling hook, sleeping pelt, torch, flint & tinder, D8 food rations, D10 silver
+
+specific lake, river, or bay. This relationship is always com-
+
+3–4 Scimitar, leather armor, rope (hemp), grappling plicated, based on love, respect, and mortal dread in equal
+
+hook, torch, flint & tinder, D8 food rations, measure. Otherwise, the seafaring profession is wide and
+
+D10 silver varied, covering everything from coastal pirates, privateers, and surly ferrymen to whalers, explorers, and authoritative captains of maritime trade expeditions.
+
+5–6 Trident, spyglass, rope (hemp), grappling hook,
+
+torch, flint & tinder, D8 food rations, D10 silver
+
+✦ Key Attribute: AGL
+
+D6 NICKNAME ✦ Skills: Acrobatics, Awareness, Hunting & Fishing,
+
+Knives, Languages, Seamanship, Swimming, Swords
+
+1 Whitewater
+
+✦ Heroic Ability: Sea Legs
+
+2 Waverider
+
+3 Foamborn
+
+D6 NICKNAME
+
+4 Saltsplash
+
+5 Seadog
+
+6 Stormfarer
+
+MARINER
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+20
+
+“Yes, many believe that tradecraft is about selling this
+
+and that, but its factual fundament is spelled ‘the principle of growth’ – turning what you have into more. If you have understood this, not much else is needed to succeed as a merchant.”
+
+– Buldil Hale
+
+Buying cheap and selling dear is the golden rule of
+
+D6 GEAR merchants. No commodity is too commonplace, no deal too small or insignificant. Inside every piece of copper is a future gold coin, and inside every creature – living or
+
+1–2 Dagger, sleeping pelt, torch, flint & tinder, rope
+
+(hemp), donkey, D6 food rations, D12 silver
+
+undead – is a customer with needs and dreams of luxury.
+
+3–4 Knife, sleeping pelt, lantern, lamp oil, flint & The only thing more important than the customer’s wishes
+
+tinder, field kitchen, donkey, cart, D6 food is the sweet clatter of gold and silver pouring into the
+
+rations, D12 silver coffers. Some merchants run permanent shops in towns, villages, and other settlements. Others travel with trade caravans and adventuring companies in constant search of exotic luxury goods, new customers, and market able
+
+5–6 Dagger, sleeping pelt, large tent, oil lamp, lamp
+
+oil, flint & tinder, backpack, D6 food rations, D12 silver
+
+artifacts.
+
+D6 NICKNAME ✦ Key Attribute: CHA ✦ Skills: Awareness, Bartering, Bluffing, Evade, Knives,
+
+1 Silvergrin
+
+Persuasion, Sleight of Hand, Spot Hidden
+
+2 Goldtooth ✦ Heroic Ability: Treasure Hunter
+
+3 Silktongue
+
+D6 NICKNAME
+
+4 The Lisping and Truthful
+
+5 Lardbelly
+
+6 Skinflint
+
+MERCHANT
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+21
+
+“You can talk about education, genius, and
+
+matter-of-factness all you want, but the scholar is never better than their sources. If you want to become learned, it’s not enough to sit and brood in some dusty tower room – you have to go out, into the world, to where the sources nest\!”
+
+– Quasimo Dearfeather
+
+Scholarly individuals gather knowledge about nature
+
+D6 GEAR and the shrouded history of the world. They seek the truth in order to understand the unseen forces and deep structures that hold the universe together as a single
+
+1–2 Staff, notebook, quill, sleeping pelt, torch, flint &
+
+tinder, D6 food rations, D10 silver
+
+entity. Some are specialists with specific areas of exper-
+
+3–4 Knife, book (any subject), sleeping pelt, oil tise, such as monsters, plants, or dead languages. Others
+
+lamp, lamp oil, flint & tinder, D6 food rations, pride themselves in avoiding limitations and dedicating
+
+D10 silver themselves to an all-encompassing, non-discriminatory pursuit of knowledge where the mating calls of dragons, the foaming of beer, and the inner workings of minerals are all covered by the same academic system. Scholars
+
+5–6 Short sword, bandages, sleeping poison (one
+
+dose), sleeping pelt, lantern, lamp oil, flint & tinder, D6 food rations, D10 silver
+
+are often well-versed in myths, legends, and folklore, and have learned to decipher ancient languages and forgotten
+
+D6 NICKNAME scripts.
+
+1 Clearmind
+
+✦ Key Attribute: INT
+
+2 Dustlung ✦ Skills: Awareness, Beast Lore, Bushcraft, Evade,
+
+Healing, Languages, Myths & Legends, Spot Hidden
+
+3 Farsight
+
+✦ Heroic Ability: Intuition
+
+D6 NICKNAME
+
+4 The Lettered
+
+5 The All-Knowing
+
+6 The Plump and Learned
+
+SCHOLAR
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+22
+
+“I’d say that there are many kinds of thieves – burglars,
+
+pickpockets, charlatans, highwaymen, pirates, and so on. The only thing we have in common is probably a particular view of ownership. I mean, this ‘yours-and-mine’-thing…”
+
+– Viola Raveneye
+
+Thieves see themselves as professional experts specialized
+
+D6 GEAR in the acquisition of other people’s property. It is a proud and surprisingly principled profession. They like to refer to solemn principles of honor and honesty among
+
+1–2 Dagger, sling, rope (hemp), grappling hook,
+
+torch, flint & tinder, D6 food rations, D10 silver
+
+thieves – something that is often hard to take seriously for
+
+3–4 Knife, lockpicks (simple), torch, flint & tinder, theft victims and other outsiders. Many thieves organize
+
+D6 food rations, D10 silver themselves into guilds; others take pride in working inde- pendently and walk alone through the night and the shad- ows. Some are discreet specialists whose only method is
+
+5–6 Two daggers, marbles, rope (hemp), torch, flint
+
+& tinder, D6 food rations, D10 silver
+
+guile, but the thief profession also includes brutal brigands who do not hesitate to use weapons to achieve their ends.
+
+D6 NICKNAME
+
+✦ Key Attribute: AGL
+
+1 Halffinger
+
+✦ Skills: Acrobatics, Awareness, Bluffing, Evade, Knives,
+
+2 Blackrat Sleight of Hand, Sneaking, Spot Hidden ✦ Heroic Ability: Back stabbing
+
+3 Redeye
+
+D6 NICKNAME
+
+4 Quickfoot
+
+5 Doubletongue
+
+6 Nightstabber
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+THIEF
+
+23
+
+AGE
+
+The next step is choosing your age. Many adventurers leave their village at a young age, but sometimes older individ- uals are forced out to hunt for treasure among the ruins. Age is divided into three categories: young, adult, and old. You choose your age freely or let the die decide.
+
+Older age means that you start the game with lower attributes but higher skill ratings – see the table below. Modifications to the attributes below do not stack. Your age in years depends on your kin and has no mechanical significance.
+
+NAME
+
+Once you have chosen your kin and profession it is time to name your adventurer. Each kin has a list of six names that are typical for that kin. Choose or roll one of these names, or make up your own if you prefer.
+
+Nicknames: A common custom for adventurers is to take a nickname, often one that says something about your appearance, your personality, or your personal history. You can choose a nickname at the start of the game or add one later if you prefer. A number of typical nicknames are listed by your profession.
+
+There are many other ways to determine the player characters’ attributes, such as rolling for all of them and then distributing the results afterwards or adding up the rolls into a big pool and distributing the points freely. As long as you all agree in the group, you can use any method you prefer
+
+D6 AGE TRAINED SKILLS\* ATTRIBUTES†
+
+1–3 Young 6+2 AGL and CON +1
+
+4–5 Adult 6+4 —
+
+6 Old 6+6 STR, AGL, and CON –2, INT and WIL +1
+
+\* Six trained skills must be selected from your profession, the rest may be chosen freely. † Up to a maximum of 18.
+
+ATTRIBUTES
+
+Your adventurer has six base attributes that indicate your basic physical and mental capabilities, on a scale from 3 to 18. The higher the score, the better.
+
+Starting Scores: Roll 4D6 and remove the worst die, which gives you a score between 3 and 18. Assign that score to an attribute of your choice. Repeat this process
+
+five more times until you have assigned a score to each attribute. You must assign each score as you roll them, but once done you may swap two scores.
+
+Then you adjust your attributes based on your age. Note that you can never have more than 18 in an attribute, regardless of your age. Once assigned, your attributes rarely change during the game.
+
+Strength (STR): Raw muscle power.
+
+Constitution (CON): Physical fitness and resilience.
+
+Agility (AGL): Body control, speed, and fine motor skills.
+
+Intelligence (INT): Mental acuity, intellect, and reason- ing skills.
+
+Willpower (WIL): Self-discipline and focus.
+
+Charisma (CHA): Force of personality and empathy.
+
+OTHER METHODS
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+EFFECTS OF AGE
+
+24
+
+DERIVED RATINGS
+
+Based on your attributes, you have a number of derived ratings that are used in various ways.
+
+MOVEMENT This rating determines how many meters you can run in a round of combat (page 43). It is based on your kin, then modified by your AGL.
+
+DAMAGE BONUS Your damage bonus increases the damage inflicted by your attacks. You have two separate damage bonuses – one for STR-based weapons and one for AGL-based weapons.
+
+HIT POINTS (HP) This rating determines how much damage you can take. Your maximum number of HP is equal to your CON, but can be increased by the heroic ability Robust. For more information about damage, see chapter 4.
+
+WILLPOWER POINTS (WP) Willpower Points are used for magic, as well as innate and heroic abilities. Your maximum number of WP is equal to your WIL, but can be increased by the heroic ability Focused.
+
+SKILLS
+
+Skills represent knowledge and abilities you have acquired during (or prior to) your life as an adventurer. They are important, as they determine how effectively you can per- form certain actions in the game. There are thirty core skills in the base game, and they are all described in detail in the next chapter. Your skills are measured by skill level on a scale from 1 to 18. The higher, the better.
+
+Base Chance: Every skill is connected to an attribute, which determines your base chance in that skill. This is indicated on the character sheet and in chapter 3. The base chance is a “free” skill level that you get automatically. See the table to the right.
+
+Starting Skill Levels: In addition to the base chances, you start out with a number of trained skills – eight, ten, or twelve depending on your age. At the start of the game, your level in a trained skills is equal to twice the base chance. Six of your trained skills must be selected from
+
+STR/AGL DAMAGE BONUS
+
+≤12 —
+
+13–16 +D4 KIN MOVEMENT
+
+17+ +D6 Human 10
+
+Halfling 8
+
+Dwarf 8
+
+Elf 10
+
+Mallard 8
+
+Wolfkin 12
+
+AGL 1–6 –4
+
+AGL 7–9 –2
+
+AGL 13–15 +2
+
+AGL 16–18 +4
+
+ATTRIBUTE BASE CHANCE
+
+1–5 3
+
+6–8 4
+
+9–12 5
+
+13–15 6
+
+16–18 7
+
+those listed by your profession. The rest (two, four, or six depending on your age) are chosen freely. You can increase your skill levels during the game.
+
+Secondary Skills: Beyond the core skills there are second- ary skills, such as the schools of magic. In this base game, you don’t get a base chance in any secondary skills, but future expansions and supplements may modify this.
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+25
+
+Magic is divided into different schools, and each school is a separate skill. As a newly created mage you must select a school of magic, which then becomes one of your trained skills (based on INT).
+
+You may choose three rank 1 spells and three magic tricks from your school or general magic (page 57).
+
+You can learn more spells, and schools of magic, during the game. For more on magic, see chapter 5.
+
+HEROIC ABILITIES
+
+Heroic abilities are special abilities that give you specific advantages and benefits in the game. You will find a range of heroic abilities described in the next chapter, and more can be added in future supplements.
+
+You start the game with one heroic ability, determined by your profession. You can gain new heroic abilities during play (page 29). Note that some heroic abilities require a minimum skill level. Such requirements don’t apply to your starting heroic ability.
+
+WEAKNESS
+
+Your character is a capable individual risking their life and limb for honor, gold, or adventure. Yet even an adventurer has a weakness, an Achilles heel that can get you into trouble. You can roll or choose from the table below or choose your weakness freely.
+
+Your weakness adds depth and personality to your character and can also be used by the GM to create challenges for them. Roleplaying accord- ing to your weakness gives you an extra advance- ment mark at the end of the session (page 29).
+
+D20 WEAKNESS
+
+1 Gullible. I believe everything that others tell me.
+
+2 Greedy. I want a bigger share of all treasure.
+
+3 Thin-skinned. I never tolerate a provocation.
+
+4 Foolhardy. I always go first into danger.
+
+5 Fainthearted. I always stay at the back of
+
+the group.
+
+6 Monster Slayer. All monsters are evil and
+
+must be slain.
+
+7 Intolerant. Nightkin such as orcs and goblins are
+
+evil and need to be fought.
+
+8 Slothful. I take every chance to rest.
+
+Mages: If you play a mage, you don’t get any heroic ability at the start of the game – your magic will make up for that disadvantage\! You can earn new heroic abilities during play just like other professions, however.
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+MAGIC
+
+26
+
+If you feel that that the heroic ability listed by your profession really doesn’t match the char- acter you want to create, the GM may allow you to choose a different starting ability.
+
+D20 WEAKNESS
+
+9 Gluttonous. I take every chance I get to eat
+
+something tasty.
+
+10 Kleptomaniac. I can’t stop myself from stealing
+
+valuables.
+
+11 Vain. I’ll help anyone who gives me praise or
+
+compliments.
+
+12 Reckless. I always take big risks without
+
+thought of the consequences.
+
+13 Fearful of Magic. Magic is an evil force and
+
+mages cannot be trusted.
+
+14 Craving Knowledge. The hunt for knowledge is
+
+more important than my friends.
+
+15 Child of the Wild. I never sleep indoors.
+
+16 Boastful. I always exaggerate my
+
+accomplishments.
+
+17 Violent. I resort to violence to overcome every
+
+obstacle.
+
+18 Overbearing. I always tell others what to do.
+
+19 Pessimist. I always think things will turn out for
+
+the worst.
+
+20 Haughty. I look down on everyone I meet.
+
+ALTERNATIVE ABILITIES
+
+GEAR
+
+When going on adventures you need the right gear. You must write down all the items you are carrying on your character sheet. Any weapons at hand, as well as the armor, helmet, and shield you are wearing, are listed in the respective boxes, while other items are recorded under Inventory.
+
+Write down one item per row. If it is not listed on your sheet, you do not have it with you. Lists of weapons and other equipment are found on pages 73–81.
+
+Starting Gear: Your profession determines what gear you can choose from at the start of the game. You may roll or select one of the three sets of items listed by your pro- fession. If you want to, you may go back and adjust your trained skills to fit your gear. You can also have a memento (below). In addition, you have simple clothes which do not need to be written down.
+
+Monetary transactions are generally made with silver coins. Copper coins are used for smaller transactions and gold for larger ones. Ten copper coins equal one silver, and ten silver coins equal one gold. The coins you get when creating your character can be used to purchase additional starting gear.
+
+MEMENTO
+
+D20 MEMENTO
+
+1 Your trusty old shoes
+
+2 A simple silver medallion
+
+3 A letter from an old friend or relative
+
+4 A ragged old journal
+
+5 A bracelet passed down in your family
+
+6 A wooden figurine you got as a child
+
+7 A strangely shaped stone
+
+8 A copper coin from a treasure sought by your
+
+mother or father
+
+9 An old pewter tankard
+
+10 A horn taken as a trophy from a monster
+
+D20 MEMENTO
+
+11 A fang taken as a trophy from a beast
+
+12 A couple of simple dice made of bone
+
+13 A locket containing a lock of hair
+
+14 An ornate key
+
+15 A hand-drawn map you inherited
+
+16 A ring with an inscription
+
+17 A bone whistle
+
+18 Your mother’s or father’s ragged old hat
+
+19 A griffin feather
+
+20 A beautifully carved pipe
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+COINS
+
+27
+
+In addition to your other equipment, you can have a memento – an item of great sentimental value that you always carry with you. Choose something suitable or roll on the table below.
+
+A memento is always a tiny item with no practical use, but once per gaming session you can use your memento to recover an additional condition during a stretch rest (page 52).
+
+If you lose your memento, you may choose a new item that you have found on your adven- tures, at the end of the gaming session.
+
+ENCUMBRANCE
+
+You can carry a number of items equal to half your STR (rounded up) in your Inventory without difficulty. Only the items written down in your Inventory box count towards your encumbrance.
+
+Weapons at Hand: You can have up to three weapons at hand, which means that they are worn on your belt or otherwise readily available for use in combat. Weapons kept at hand are recorded under Weapons on the character sheet and do not count toward your encumbrance. Shields count as weapons and are also recorded here.
+
+Helmet & Armor: Any helmet or armor worn on your body is recorded in its respective section and does not count toward your encumbrance.
+
+Food: Up to four rations of food count as one item in terms of encumbrance. Always record the number of rations you have left in your Inventory.
+
+Torches & Lanterns: A torch, lamp, or lantern is an item. Their fire may go out (page 52). Lamps and lanterns can be refilled with lamp oil.
+
+Arrows & Slingstones: You do not have to count every arrow you are carrying. Instead, each quiver of arrows counts as a single item. As long as you have the quiver, you can use your weapon. Slingstones do not need to be noted down at all – you are assumed to have enough of those.
+
+Backpack: A backpack increases your carrying capacity by 2. It does not count toward your encumbrance, but you can only carry one backpack at a time.
+
+HEAVY ITEMS Really heavy items count as two, three, or even more normal items in terms of encumbrance. These will be indicated as having weight 2, 3, 4, and so on. In your inventory, heavy items take up a number of rows equal to their weight. If no weight is specified, it is always 1.
+
+TINY ITEMS Small and light items that can be hidden in a closed fist are called tiny. Items of this size do not affect your encum- brance at all. Tiny items are recorded in their own section on the character sheet and do not take up any space in your Inventory.
+
+Coins: Single coins count as tiny items and do not affect your encumbrance as long as they are fewer than 100. 100– 199 coins count as one item, 200–299 as two, and so on.
+
+OVER-ENCUMBERED You can temporarily carry more than your normal encum- brance limit. In that case you must make a STR roll when- ever you want to move in a round of combat or walk for a shift of travel. If the roll fails, you must either drop what you are carrying or stay where you are.
+
+Carrying Others: While carrying another person, you automatically count as over-encumbered and cannot fight in combat.
+
+RIDING ANIMALS & VEHICLES If you have a horse or some other riding animal, the animal can carry your gear for you. Wagons and boats can carry even heavier loads. You can find them in the gear lists on page 81.
+
+APPEARANCE
+
+On the character sheet you can write down something about your player character’s appearance. It does not have to be a detailed description – one or a few distinct features is enough. Choose for yourself or make one or more rolls on the table on the next page.
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+28
+
+D20 APPEARANCE
+
+1 Ugly scar across your cheek
+
+2 Strange headgear
+
+3 Abnormally pale and pasty
+
+4 A constant smile on your lips
+
+5 Icy, penetrating gaze
+
+6 A bit of extra weight around
+
+the middle
+
+7 Thin and wiry
+
+D20 APPEARANCE
+
+15 Honest blue eyes
+
+16 Silver tooth
+
+17 Heavily perfumed
+
+18 Different-colored eyes
+
+19 Hissing voice
+
+20 Weathered face
+
+EXPERIENCE
+
+Life as an adventurer brings many challenges, and if you survive you are sure to change and maybe even learn a thing or two along the way.
+
+Advancement Marks: When you have rolled a dragon or demon (page 31) when using a skill, tick the check box next to that skill. At the end of the game session, the GM asks you the following questions about the session you just completed. For each question that you can reply “yes” to, and justify your answer, you may place another
+
+advancement mark next to an unmarked skill of your choice. The GM has the final word, but should adopt a permissive attitude.
+
+✦ Did you participate in the game session? ✦ Did you explore a new location? ✦ Did you defeat one or more dangerous adversaries? ✦ Did you overcome an obstacle without using force? ✦ Did you give in to your weakness (optional rule)?
+
+Advancement Rolls: After placing your marks, roll a D20 for each of them – if the result exceeds your current skill level, it is increased by one, up to a maximum of 18. Once you have made your advancement rolls, erase the marks and start over in the next game session.
+
+Teacher: A shift of intense training with a teacher whose skill level is 15 or higher and exceeds your own gives you an additional advancement roll to improve the skill in question. Make the roll immediately, without waiting for the session to end. However, a teacher can only raise a skill level by one – after that you must improve the skill through experience
+
+before you can get more help from a teacher. Teachers, espe- cially those with high skill levels, are usually very expensive.
+
+Magic: A school of magic that you already know can be improved like any other skill. However, learning new spells and new schools of magic requires special training. For more information, see chapter 5.
+
+Heroic Abilities: You can earn new heroic abilities during play in two ways:
+
+If you during the session acted in a way that clearly goes against your weakness, you get two advancement marks (instead of one mark for giving into it). You have now also overcome your weakness and must remove it. You must then play a full session without a weakness. After that, you may choose a new weakness, preferably based on something that has occurred in the game.
+
+✦ When you increase a skill level to 18, you immediately gain a new heroic ability of your choice. If the skill level is reduced below 18 for any reason, you keep the heroic ability and you will even gain a new ability if the skill level is increased to 18 again. ✦ After a grand heroic deed, the GM or the adventure
+
+can reward you with a heroic ability. This should be a rare event, never more than once per standard-length adventure.
+
+To earn a new heroic ability, you must meet its skill requirement.
+
+OVERCOME WEAKNESS
+
+CHAPTER 2 – YOUR PLAYER CHARACTER
+
+D20 APPEARANCE
+
+8 Abnormal amounts of body hair (depending on kin)
+
+9 Balding (depending on kin)
+
+10 Prominent tattoo
+
+11 Foul body odor
+
+12 Glorious hairstyle
+
+13 Limp
+
+14 Filthy
+
+29
+
+SKILLS
+
+roleplaying game is a conversation. The Game- master describes the scene, you describe how your character behaves, the GM describes how any NPCs react, you reply, and it goes back and forth. That is how the story is told and progresses. But sooner or later a decisive situation will arise, a point of no return, a
+
+conflict that conversation alone cannot resolve. Then it’s time to break out the dice and use one of your skills. This chapter also describes heroic abilities, which allow you to perform extraordinary actions that ordinary people cannot.
+
+ROLL THE DICE
+
+There are thirty core skills in total in the game, not count- ing secondary skills like the schools of magic, and they are all described later in this chapter. Each skill is connected to one of the attributes, which determines your base chance in the skill when you create your player character.
+
+When using a skill, first describe what your player character is trying to achieve. Then roll a D20. A result that is lower than or equal to your skill level means that your action succeeds. In combat your skill rolls often have specific effects. Outside of combat the GM, or the adven- ture you are playing, determines the effects of the roll.
+
+ROLLING A DRAGON Rolling a one (1) on D20 means that you are particularly successful. This is called rolling a dragon. In combat, a dragon roll has specific effects – increasing the damage of an attack, for example. Outside of combat the GM decides the effect. Some suggestions:
+
+✦ You impress everyone around you. ✦ You achieve more than intended. ✦ The action is performed faster than usual.
+
+FAILURE Rolling above your skill level means that your action fails. For some reason you do not achieve your goal – feel free to describe what happens together with the GM. The GM can also let failures have additional consequences to advance the story in an exciting way.
+
+No Standstills\! Failure must not stop the story com- pletely. Even when you fail, there must be a way forward – perhaps at the cost of time, risk, or gold, but still a way. The GM has the final say on the consequences of failure in that particular situation.
+
+ROLLING A DEMON Rolling a 20 on D20 is called rolling a demon and means that the roll fails regardless of your skill level and other circumstances. Rolling a demon also means that the roll cannot be pushed (optional rule, page 32). Demon rolls can have additional effects in combat (page 46 and page 49) and during spellcasting (page 59). Outside of combat the GM can let demon rolls have effects such as:
+
+✦ You damage yourself, someone else, or an item. ✦ You make a fool of yourself in front of everyone
+
+around you. ✦ You make a lot of noise.
+
+As a rule, you only have one chance to succeed with any action. Once you have rolled the dice, you may not roll again to achieve the same goal. You need to try something different, wait until the circumstances have changed in a substantial way, or let another player character try. This rule does not apply in combat.
+
+CHAPTER 3 – SKILLS
+
+31
+
+When no skill seems relevant to the situation, the GM can instruct you to roll against a base attribute instead – a Strength roll to lift some- thing heavy, for example. But if there is a skill that covers the action you wish to perform, your roll must be based on that. In unclear cases the GM decides what is appropriate.
+
+ONLY ONE CHANCE
+
+ATTRIBUTE ROLLS
+
+BOONS & BANES
+
+Normally, the GM does not assess how difficult an action is. You only roll dice in challenging situations – period. But sometimes the GM might want to underscore that external factors either help or hinder an action. You might then get a boon or bane to your roll.
+
+In both cases you roll two D20, but only one result counts. If you have a boon, only the lowest result applies. If you have a bane, only the highest result applies.
+
+There are also cases where the rules say that you get a boon or a bane, for example when attacking a prone oppo- nent or shooting at long range.
+
+Multiple Boons/Banes: If you get multiple boons/banes to your roll, roll an additional D20 for each boon/bane and count only the lowest/highest result. However, please note that unless you have a very high skill level, rolls with multiple banes have a very low chance of success..
+
+Boon and Bane: Sometimes you might get both boons and banes to your roll. Each boon negates one bane, and vice versa. If you have one boon and one bane, make a
+
+HELP FROM OTHERS
+
+If you fail a skill or attribute roll, you can choose to push the roll, which means that you make another attempt. The new result applies, what- ever it is. If you have boons or banes, you must re-roll all dice. You can never push a demon roll (a natural 20).
+
+Whenever you push a roll, immediately after the re-roll, you suffer a condition. This means that you get a bane on all rolls for skills based on a certain attribute, and rolls against the attribute in question. Each attribute is linked to a certain condition. Thus, there are six different conditions:
+
+✦ Exhausted – STR ✦ Sickly – CON ✦ Dazed – AGL
+
+One other player character or NPC can help you succeed at a die roll. This must be declared before you roll any dice. It must also make sense in the story – the individual helping you must be physically present and have the capacity to support your action. The GM has the final say.
+
+Whenever someone helps you with a roll, you get a boon (see above). In combat, helping counts as an action – by helping someone else you lose your own action that round. NPCs can help each other just as player characters can. Only one character can help a roll.
+
+normal roll (one D20). If you have two boons and one bane, it counts as a boon.
+
+You decide which condition you get from pushing a roll, with two important restrictions:
+
+✦ You cannot choose a condition you already have. ✦ You must be able to explain how the condition
+
+results from the action you are trying to perform. The GM has the right to reject clearly unreasonable explanations.
+
+Once you have all six conditions, you may no longer push your rolls. In addition to their effects, con- ditions provide inspiration for roleplaying. Mark conditions on your character sheet.
+
+✦ Angry – INT
+
+Healing Conditions: You can recover from a con- ✦ Scared – WIL
+
+dition by resting – for more on resting and healing, ✦ Disheartened – CHA
+
+see page 52.
+
+NPCs and Monsters: Only the player characters can push their rolls, not NPCs or monsters.
+
+PUSHING YOUR ROLL
+
+CHAPTER 3 – SKILLS
+
+32
+
+OPPOSED ROLLS
+
+Sometimes you must beat your enemy in an opposed roll to succeed with an action. This means that both you and your adversary roll dice. Opposed rolls are used sparingly in the game, and only when someone is actively opposing you. In combat it only counts as an action for the active party.
+
+✦ If your roll fails, your action fails as well, regardless of
+
+your opponent’s roll. ✦ If your roll succeeds while your opponent fails, your
+
+action succeeds. ✦ If both of you succeed with your rolls, your action
+
+succeeds if the result of your roll is lower than or equal
+
+to your opponent’s result. If the opponent’s result is lower than yours, you fail.
+
+Pushed Rolls: Opposed rolls can be pushed (optional rule, see previous page) as well, but only if you are the active party. This can be done even after your opponent’s roll.
+
+Open Opposed Rolls: The GM can also use opposed rolls in situations where there is no active party – e.g. rolling STR against STR to decide the outcome of an arm-wrestling match. This is called an open opposed roll. Open opposed rolls are re-rolled if both parties fail, or if both succeed and get the same result. Both parties can push their rolls.
+
+THE CORE SKILLS
+
+This section describes all core skills in the game. The schools of magic are secondary skills and covered in chapter 5.
+
+ACROBATICS (AGL) When jumping, climbing, balancing or performing a simi- lar physical action, roll for this skill.
+
+AWARENESS (INT) As an adventurer you must always be on your guard, or you won’t live long. You use your AWARENESS skill to watch or listen for anyone sneaking around nearby (opposed roll, see SNEAKING below). The GM can also let
+
+you make an AWARENESS roll to notice emerging threats in time. Such a passive roll cannot be pushed.
+
+Groups: If multiple player characters are in the same place, each of you makes a separate AWARENESS roll. You cannot help (page 32) each other.
+
+BARTERING (CHA) When haggling over the price of something you are buying or selling, roll for BARTERING. If you succeed, the price goes down or up by 20%. If you roll a dragon, the price is halved or doubled. If you roll a demon, you have offended the other party so badly that they refuse the trade.
+
+BEAST LORE (INT) The world is full of common and rare animals and beasts
+
+Non-player characters use skills in the same way as player characters. The GM rolls dice for them, but only for actions that affect a player character directly – for example, if the NPC is
+
+of all kinds. Roll for BEAST LORE when trying to identify an animal or monster, or to know its habits, abilities, and weaknesses. If you succeed, the GM should give you some piece of useful information.
+
+attacking a player character or attempting to save them. When an NPC performs an action that does not directly affect a player character, the GM can simply decide what happens.
+
+NPC stat blocks don’t list all skills – when
+
+There are different schools of magic, and each rolling for an NPC against an unlisted skill, the
+
+school is a separate secondary skill. For more GM uses a default skill level of 5.
+
+information on magic, see chapter 5.
+
+NPCS AND SKILLS
+
+CHAPTER 3 – SKILLS
+
+33
+
+SCHOOLS OF MAGIC
+
+BLUFFING (CHA) To quickly come up with a convincing lie can be an invaluable skill as an adventurer. If the GM finds your bluff unconvincing, you get a bane to your roll. If your bluff is completely unbelievable, it fails automatically – no matter how well you deliver it.
+
+BUSHCRAFT (INT) The vast wilderness is a dangerous place where wild beasts roam. The ignorant can lose their lives by choosing the wrong path through the woods or making camp in the wrong spot. Roll for BUSHCRAFT to lead the way through the wilderness, make camp, cook food, or stay warm in cold weather. Read more in chapter 8.
+
+CRAFTING (STR) As an adventurer, you must often repair your gear if it breaks. Typically, it takes one shift to repair a damaged item, and you need access to the appropriate tools (page 78).
+
+EVADE (AGL) Roll for this skill when trying to dodge an attack or flee from combat. Read more in chapter 4.
+
+HEALING (INT) As an adventurer there is a significant risk that you and your friends will be injured, sooner or later. That is when HEALING is useful – with this skill you can get fallen companions back on their feet or even save their lives. Read more on page 50.
+
+HUNTING & FISHING (AGL) Out in the wild, you will often need to find your own food by hunting or fishing. This is further described on page 103.
+
+LANGUAGES (INT) All player characters can speak the common tongue and read simple texts, and non-human kin also know their own language. To understand foreign or ancient languages, roll for this skill.
+
+MYTHS & LEGENDS (INT) When trying to remember stories of old times or distant lands, or trying to understand links to the past, roll for this skill.
+
+CHAPTER 3 – SKILLS
+
+34
+
+PERFORMANCE (CHA) When singing a song, reading a poem, making jokes or in some other way try to amuse a crowd, roll for PERFORMANCE.
+
+PERSUASION (CHA) Life as an adventurer is dangerous, but you can often reach your goals without violence, through charm, threats, or sensible reasoning. Roll for PERSUASION to make another person see things your way. If you succeed, you achieve your stated objective, and the NPC does what you want. However, they might demand something in return – the GM decides what that entails.
+
+If what you are asking for requires the NPC to sacrifice or risk something important, the roll is more difficult – it becomes an opposed roll between your PERSUASION and the other person’s WIL. But even in this case your request must be reasonable – no NPC will agree to just anything or act entirely against their own interests, no matter how suc- cessful the roll. The GM has the final say. You cannot PER- SUADE monsters (chapter 7) unless it is explicitly allowed.
+
+RIDING (AGL) To get up on a horse and ride slowly doesn’t require a skill roll, for but for more advanced maneuvers you need to roll for RIDING. Special rules apply in combat (page 55).
+
+SEAMANSHIP (INT) Anyone can row a boat or paddle a canoe slowly, but in more challenging situations you need to roll for SEAMAN- SHIP to steer a vessel over water. This skill can also be used for navigation.
+
+SLEIGHT OF HAND (AGL) When you are trying to steal something unnoticed, pick a lock, or perform any other action that requires fine motor skills, you roll SLEIGHT OF HAND.
+
+SNEAKING (AGL) It is often wise to avoid combat and hide or sneak past the enemy instead. If you win, you remain undetected. It is usually a straight skill roll, but if someone is actively looking for you, you must make an opposed roll with your SNEAKING against the enemy’s AWARENESS.
+
+Note that you can only make a SNEAKING roll when you can actually see or hear the enemy you wish to avoid. You never use SNEAKING “just in case” there is an enemy nearby.
+
+Axes Group Sneaking: If multiple player characters are sneak-
+
+(STR): A skill used for combat with axes of all kinds, ing around together, each person makes a separate roll. If
+
+including when thrown. one of you fails, the whole group is detected.
+
+Bows (AGL): A skill for attacks with all types of bows,
+
+SPOT HIDDEN (INT)
+
+except crossbows.
+
+The art of finding what’s hidden can make you rich beyond
+
+Brawling (STR): Used for unarmed combat with fists, feet, measure – or save your life. When you are looking for
+
+teeth, or claws. something concealed, you roll SPOT HIDDEN. If your description of where you are searching is very precise, the
+
+Crossbows (AGL): This skill is used for attacks with GM can give you a boon or even let you succeed with-
+
+crossbows of all kinds. out a roll.
+
+Each SPOT HIDDEN roll takes roughly a stretch.
+
+Hammers (STR): Used for combat with warhammers and You only get one attempt to look for the same thing in
+
+other blunt weapons such as clubs and maces. exactly the same place. Multiple player characters can look simultaneously.
+
+Knives (AGL): This skill is used for combat with knives and daggers, including when thrown.
+
+SWIMMING (AGL)
+
+Slings (AGL): Roll for this skill when attacking with All player characters can keep afloat for a short time, but
+
+a sling. for more challenging situations a roll for SWIMMING is required. Read more about swimming and drowning
+
+Spears (STR): A skill used for combat with spears and on page 53.
+
+tridents, including when thrown. It also covers lances.
+
+WEAPON SKILLS (STR/AGL)
+
+Staves (AGL): Use this skill when fighting with a staff.
+
+There are several skills for wielding different types of weap-
+
+Swords (STR): Used for combat with all types of swords. ons. You can read more about weapons and combat in the next chapter.
+
+HEROIC ABILITIES
+
+Described below are a number of heroic abilities. All player characters except mages get one heroic ability each at the start of the game, and you can earn new ones as described on page 29. Note that some heroic abilities require a minimum skill level to be learned.
+
+Some cost Willpower Points to activate, others do not. Unless stated otherwise, it is possible to combine multiple abilities in the same action, e.g. Assassin and Dragon- slayer, but you must pay the WP cost for each ability you wish to use.
+
+Some heroic abilities require optional rules. If you are playing without these optional rules, those heroic abilities should not be used.
+
+ASSASSIN ✦ Requirement: Knives 12 ✦ Willpower Points: 3
+
+Your sneak attack (page 43) deals an extra D8 damage. This heroic ability can be combined with the heroic ability Backstabbing. You activate this ability after you roll to hit, but before you roll for damage.
+
+BACKSTABBING ✦ Requirement: Knives 12 ✦ Willpower Points: 3 You can activate this ability when making a melee attack against an enemy that is also within 2 meters of another player character. Your attack then counts as a sneak attack, which means it cannot be dodged or parried, you get a boon to the roll, and the number of dice rolled for the damage is increased by one (i.e. 2D8 instead of D8). This ability can only be used with a subtle weapon (page 74). Activating this ability does not count as an action.
+
+CHAPTER 3 – SKILLS
+
+35
+
+BATTLE CRY ✦ Requirement: — ✦ Willpower Points: 3 You can, as an action in combat, let out a battle cry that inspires your friends. All other player characters within earshot immediately heal a condition of their choice (page 51). This heroic ability can only be used in combat.
+
+BERSERKER ✦ Requirement: Any melee weapon skill 12 ✦ Willpower Points: 3 You gain the Angry condition and immediately attack the nearest opponent in melee combat. If already Angry, you gain another condition of your choice. Then you must keep fighting until all opponents within sight have been defeated or you reach 0 HP. You gain a boon to melee attacks, but can neither parry nor dodge. After the fight you become Exhausted.
+
+CATLIKE ✦ Requirement: Acrobatics 12 ✦ Willpower Points: Varies The number of D6 rolled for damage from a fall (page 53) decreases by one for each WP spent. You can first make an ACROBATICS roll and then activate this heroic ability.
+
+COMPANION ✦ Requirement: Hunting & Fishing 12 ✦ Willpower Points: 3 You can activate this ability to turn an animal (not a monster) into your companion. This takes a stretch of time, and you can only have one animal companion at a time. The GM decides which animals are nearby – see the list on page 99. The animal follows you as long as you remain in its natural environment, and it can scout for you at no additional WP cost. For 3 additional WP you can com- mand the animal to attack an enemy (free action for you).
+
+CONTORTIONIST ✦ Requirement: Evade 12 ✦ Willpower Points: 1 You escape from your shackles or squeeze through a narrow space without rolling for any skill.
+
+DEFENSIVE ✦ Requirement: Any melee weapon skill 12 ✦ Willpower Points: 3
+
+CHAPTER 3 – SKILLS
+
+36
+
+You may attempt to parry an attack (page 46) without consuming your action for the round. The bonus parry can be used at any time during the round. You may only try to parry the same attack once and you cannot try to dodge and parry the same attack. This ability can be used multi- ple times per round, as long as you have enough WP.
+
+DEFLECT ARROW ✦ Requirement: Any melee weapon skill 12 ✦ Willpower Points: 1 You can parry a ranged attack with a melee weapon, instead of using a shield.
+
+DISGUISE ✦ Requirement: Bluffing 12 ✦ Willpower Points: 2 You are a master of disguise and can easily assume the appearance of others. After working for a stretch of time you can assume another person’s looks, voice, and demeanor. The person must be of the same kin as you. Anyone who knows the person and sees you from up to 10 meters away can make an AWARENESS roll to see through your disguise.
+
+DOUBLE SLASH ✦ Requirement: Axes or Swords 12 ✦ Willpower Points: 3 When wielding a slashing weapon, you can attack two enemies within 2 meters with a single slash. You only roll for the attack once – if it succeeds, both enemies are hit. Your enemies can parry or dodge the attack individually. Damage is rolled separately. This ability can be combined with Dual Wield.
+
+DRAGONSLAYER ✦ Requirement: Any weapon skill 12 ✦ Willpower Points: 3 An attack aimed at a monster (not a normal NPC) deals an additional D8 damage. You activate this ability after you roll to hit, but before you roll for damage. Read more about monsters in chapter 7.
+
+DUAL WIELD ✦ Requirement: Any melee weapon skill 12 ✦ Willpower Points: 3 This heroic ability can only be used if you wield a one- handed weapon in each hand. The STR requirement of the weapon in your off hand (you decide if it is right or left) increases by 3. You activate the ability on your turn in combat and can then perform an extra attack with your second weapon. The second attack is done with a bane. You decide in which order to use your two weapons. Finish the first attack, including damage, before rolling the second one. This ability can be combined with Double Slash.
+
+EAGLE EYE ✦ Requirement: Awareness 12 ✦ Willpower Points: 2 You can see a person or object up to 200 meters away in great detail, as if standing right next to it. The effect lasts for one stretch. In combat you can also shoot at a target beyond the weapon’s effective range (page 49) without getting a bane to your roll. This heroic ability must be activated for each new target.
+
+FAST FOOTWORK ✦ Requirement: Evade 12 ✦ Willpower Points: 3 You may attempt to dodge an attack (page 47) without consuming your action for the round. The bonus dodge can be performed at any time during the round. You may only try to dodge the same attack once and you cannot try to
+
+CHAPTER 3 – SKILLS
+
+37
+
+dodge and parry the same attack. This ability can be used multiple times per round, as long as you have enough WP.
+
+FAST HEALER ✦ Requirement: — ✦ Willpower Points: 2 You heal an extra D6 HP during a stretch rest. This heroic ability does not affect WP or conditions.
+
+FEARLESS ✦ Requirement: — ✦ Willpower Points: 2 You automatically resist fear (page 52), without a WIL roll.
+
+FOCUSED ✦ Requirement: — ✦ Willpower Points: — Your maximum number of Willpower Points is perma- nently increased by 2. You can select this heroic ability multiple times, without limit.
+
+GUARDIAN ✦ Requirement: Axes, Hammers, or Swords 12 ✦ Willpower Points: 2 You do not hesitate to take a hit to protect your friends. If you and another player character are both within 2 meters of the same enemy and the enemy tries to attack the other character, you can activate this ability to force the enemy to attack you instead. Using this ability can be done out of turn and it does not count as an action.
+
+INSIGHT ✦ Requirement: Persuasion 12 ✦ Willpower Points: 2 If you talk a while with another person, you can roll AWARENESS to determine whether that person is tell- ing the truth. You cannot tell exactly what a person is lying about.
+
+INTUITION ✦ Requirement: Myths & Legends 12 ✦ Willpower Points: 3 When faced with a difficult decision, you can activate this ability to ask a question directly to the GM and receive a helpful answer. The answer represents your vast general knowledge and should only aid your decision-making, not reveal everything there is to know.
+
+IRON FIST ✦ Requirement: Brawling 12 ✦ Willpower Points: 1 The damage of an unarmed attack increases by one D6. You can activate this heroic ability as a free action after rolling the attack.
+
+IRON GRIP ✦ Requirement: Brawling 12 ✦ Willpower Points: 1 You get a boon to your BRAWLING roll when trying to grapple another person or prevent the enemy from break- ing free.
+
+LIGHTNING FAST ✦ Requirement: Evade 12 ✦ Willpower Points: 2 When drawing initiative card at the start of a combat round (page 41), you may draw two cards instead of one and choose which one you want. You can only activate this heroic ability once per round.
+
+LONE WOLF ✦ Requirement: Bushcraft 12 ✦ Willpower Points: — You can take a shift rest in the wilderness without first rolling for BUSHCRAFT to make camp (page 103). The effect only applies to you, even if you have a tent.
+
+MAGIC TALENT ✦ Requirement: — ✦ Willpower Points: — You have an aptitude for magic and can learn a new school of magic (whether you already know any or not). Spells need to be learned separately. For more information on how it works, see page 61. This heroic ability can be selected multiple times – once for each new school you want to learn.
+
+MASSIVE BLOW ✦ Requirement: Any STR-based melee weapon skill 12 ✦ Willpower Points: 3 A strike with a two-handed melee weapon inflicts D8 addi- tional points of damage, but you cannot move in the same round. You can activate this ability after the roll to hit, but not if you moved.
+
+CHAPTER 3 – SKILLS
+
+38
+
+MASTER BLACKSMITH ✦ Requirement: Crafting 12 ✦ Willpower Points: Varies This ability requires blacksmithing tools. In one stretch, you can sharpen a bladed or pointed weapon, at the cost of 3 WP. Against a sharpened weapon, the armor rating of an item counts as one step lower. The effect wears off after one combat encounter where the weapon was used to attack or parry.
+
+In one shift, you craft a metal weapon or metal armor of your choice from the lists on pages 73–75. It requires a forge, an anvil, and iron (weight 1). The cost in WP is equal to the item’s price in gold (rounded up). You can spread the work across multiple shifts if you do not have enough WP.
+
+MASTER CARPENTER ✦ Requirement: Crafting 12 ✦ Willpower Points: Varies This ability requires carpentry tools. As an action, you can inflict D12 points of damage per WP spent on a door, wall, or any other inanimate object, ignoring the object’s armor rating.
+
+In one shift of time you can craft a wooden item of your choice, such as a club, staff, or shield, from the lists on pages 73–75. It requires wood (weight 1 or deter- mined by the GM), and costs a number of WP equal to the item’s price in gold (rounded up). The GM decides the cost for unlisted items
+
+MASTER CHEF ✦ Requirement: — ✦ Willpower Points: 1 You automatically succeed at cooking food (page 103) without rolling BUSHCRAFT.
+
+MASTER SPELLCASTER ✦ Requirement: Any magic school 12 ✦ Willpower Points: 3 If you activate this ability on your turn in combat, you can cast two different spells as a single action. It must be two different spells. You can roll for the first spell and then activate this heroic ability.
+
+MASTER TANNER ✦ Requirement: Crafting 12 ✦ Willpower Points: Varies This ability requires leatherworking tools. You can craft one set of leather armor from the skin of an animal or a monster. The armor gets half the beast’s armor rating (rounded up), but always has at least 1. It takes one shift and the cost in WP is equal to the item’s armor rating.
+
+MONSTER HUNTER ✦ Requirement: Beast Lore 12 ✦ Willpower Points: 3 At a crossroads of some kind, you can activate this ability to learn the direction of the most dangerous enemies.
+
+MUSICIAN ✦ Requirement: Performance 12 ✦ Willpower Points: 3 Your beautiful voice instills courage in your friends or fear in your foes. Activating this ability (an action in combat) gives all allies within 10 meters a boon to all rolls, or a bane to all enemies within the same range – choose one or the other. The effect lasts until your turn in the next round.
+
+Instruments: You can use instruments for the Musi- cian ability. This can increase the ability’s range or reduce the cost in WP. See page 75.
+
+PATHFINDER ✦ Requirement: Bushcraft 12 ✦ Willpower Points: 1 You get a boon to your BUSHCRAFT roll when trying to find the right direction in the wilderness.
+
+QUARTERMASTER ✦ Requirement: Bushcraft 12 ✦ Willpower Points: 1 You are good at finding suitable campsites. You automati- cally succeed at making camp during journeys (page 103).
+
+ROBUST ✦ Requirement: — ✦ Willpower Points: — Your max HP increases by 2. This heroic ability can be selected multiple times, without limit.
+
+SEA LEGS ✦ Requirement: Swim 12 ✦ Willpower Points: 1 You can activate this ability (not an action) when perform- ing an action in water, even if only waist deep. You are then safe from all negative effects of being in water (page 53) for one round, including the risk of drowning.
+
+SHIELD BLOCK ✦ Requirement: Any STR-based melee weapon skill 12 ✦ Willpower Points: 2
+
+CHAPTER 3 – SKILLS
+
+39
+
+You can activate this ability when parrying with a shield to roll with a boon. Using this ability, you can also parry physical monster attacks (not area effects) that normally cannot be parried. This requires a shield and you get a boon to the roll. This ability can be combined with Defensive.
+
+THROWING ARM ✦ Requirement: Any melee weapon skill 12 ✦ Willpower Points: 2 You can throw a melee weapon with tremendous force at an enemy within your STR meters away. It must be a one- handed weapon. Roll the attack as normal. The enemy can parry or dodge the attack as usual. The weapon lands at the enemy’s feet.
+
+TREASURE HUNTER ✦ Requirement: Bartering 12 ✦ Willpower Points: 3 At a crossroads of some kind, you can activate this ability to learn the direction of the greatest treasures.
+
+TWIN SHOT ✦ Requirement: Bows 12 ✦ Willpower Points: 3 By activating this ability when attacking with a bow (not cross- bow), you shoot two arrows instead of one. Roll just once to hit, with a bane. Damage is rolled separately. The arrows can be directed at the same target or two different targets.
+
+VETERAN ✦ Requirement: Any weapon skill 12 ✦ Willpower Points: 1 Activating this ability at the start of a combat round allows you to retain your initiative card from the previous round instead of drawing a new one. Doing so does not count as an action. For more information on combat and initiative, see chapter 4.
+
+WEASEL ✦ Requirement: Evade 12 ✦ Willpower Points: 3 If you are attacked and have another player character within 2 meters, you can activate this ability to let the attack hit that character instead of you. This ability has no effect against area attacks and you must activate this ability before attempting any dodge or parry. The new target may try to dodge or parry normally.
+
+COMBAT & DAMAGE
+
+rough for your player character, sometimes even lethal. Before you enter combat, you should always ask yourself: is it worth it?
+
+ROUNDS & INITIATIVE
+
+Combat is played in rounds, each representing roughly ten seconds. At the start of each round, the first step is to decide who has the initiative – that is, in what order the combatants will act during the round.
+
+DRAWING THE INITIATIVE To determine the initiative, ten cards numbered 1 to 10 are used. Such initiative cards are included in the boxed Drag- onbane Core Set, but you can also use ordinary playing cards. Each player taking part in the conflict, voluntarily or otherwise, draws a random card at the beginning of each round, and the GM draws cards for NPCs. This is called drawing the initiative.
+
+The number on the card determines the order in which you act in the round. Number 1 acts first, number 2 acts second, and so forth until everyone has acted. Your place in the initiative order is called your turn.
+
+Place your initiative card by your character sheet so everyone can see the order in which each person acts. The GM puts their card (or cards) in front of them. When all participants have had their turn, the round is over and a new round begins by drawing the initiative again.
+
+SURPRISE If you perform an attack that the GM deems surprising to your enemy, you get to choose any initiative card you want in the first round of combat. If several characters partici- pate in the surprise attack, you may all choose a card. The other combatants draw the initiative from the cards that remain. At the start of the second round, everyone draws the initiative as usual.
+
+To make things simple, particularly in large battles, the GM can draw a single initiative card for a group of NPCs. All NPCs in that group act on the same turn in the round. The order among them is decided by the GM.
+
+ife as an adventurer is hard and often violent. In Dragonbane you can run into wild beasts, malicious raiders, and demonic monsters. Combat can be
+
+INITIATIVE FOR NPCS
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+41
+
+On your turn in the round, you can choose to wait. This means that you swap initiative cards – and therefore places in the turn order – with another creature whose turn comes after yours. You can swap cards with other player characters as well as NPCs (or group of NPCs acting on the same turn), and they cannot refuse the trade. However, you cannot swap initiative cards with anyone who has already had their turn, or who themselves chose to wait earlier in the round.
+
+Monsters: Monsters (page 83) often have multiple turns in a single round, and therefore draw multiple initiative cards. In that case you decide which card you want, as long as it comes after your current turn in the initiative order. Monsters themselves never choose to wait.
+
+WAITING
+
+ACTIONS & MOVEMENT
+
+On your turn in the round, you can move and perform one action. You simply explain how you want to move and what action you want to perform. If necessary, you also roll dice to see whether you succeed.
+
+You decide whether to move before you act or vice versa. You can even use part of your movement, perform your action, and then finish the movement. You must perform your action and move on your turn – you cannot save any of them for later (but see Waiting on the previ- ous page).
+
+ACTIONS An action in combat can be many different things, but the list below summarizes the most common ones. These actions are described in detail later in this chapter.
+
+Free Actions: Minor actions such as drawing a weapon kept at hand, dropping to the ground, or shouting a few words are all free actions. See the sidebar on the next page for a complete list. Free actions do not count as your action in the round but you can only perform one of each type per round, and only on your own turn. For example, you can drop down or get up on your turn, but not both.
+
+REACTIONS Some actions are not performed on your turn, but on the opponent’s. These are called reactions and include things like parrying or dodging attacks. This uses up your own turn in the round, which means that you cannot perform a reaction if you have already had your turn. Flip your initiative card after performing a reaction.
+
+An action in combat can be many different things, but the most common ones are summarized below. Rules for these actions are found later in the chapter.
+
+✦ Dash: This action doubles your movement rate in
+
+the round. ✦ Melee Attack: These can be performed against an enemy within 2 meters (4 meters for long weapons). ✦ Ranged Attack: Attacks with a ranged weapon
+
+can be made against targets within the weap- on’s range. ✦ Parry: Both melee and ranged attacks can be
+
+parried, but the latter requires a shield. Parrying is a reaction that takes place outside your turn and replaces your normal turn in the round. ✦ Dodge: Dodging a melee or ranged attack is also a reaction that takes place outside your turn and replaces your normal turn in the round. ✦ Pick Up Item: Pick up an item from the ground
+
+within 2 meters, or from your Inventory. ✦ Equip/Unequip Armor/Helmet: Suits of armor and helmets protect you from damage, but also restrict your movement.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+ACTIONS
+
+42
+
+✦ First Aid: The HEALING skill is used to save the
+
+life of someone who has had their HP reduced to zero and is at risk of dying. ✦ Rally: You can PERSUADE another player charac-
+
+ter at zero HP to rally and keep fighting. ✦ Break Down Door: Doors can take a certain amount of damage before they break down. ✦ Pick Lock: Picking a lock requires a SLEIGHT
+
+OF HAND roll. Doing so without lockpicks gives you a bane. ✦ Use Item: Use a potion or some other item
+
+within 2 meters. ✦ Activate Ability: Use an innate or heroic ability. ✦ Cast Spell: In most cases, casting a spell counts as an action. This includes magic tricks. Some spells are reactions and do not require an action, while others are more time-consuming. For more on magic, see chapter 5. ✦ Helping: Helping another character gives them a
+
+boon to a roll in the same round. ✦ Round Rest: You rest and recover D6 WP. This
+
+can only be done once per shift.
+
+Movement: When performing a reaction, you also lose your movement in the round. Several reactions, such as dodging or parrying, give you a certain movement as part of the action. You can read more about this under Melee Combat on page 45.
+
+MOVEMENT Under normal circumstances, you can move as many meters as your Movement rate. But there are a few special cases to consider:
+
+Dash: By choosing to dash as your action in the round, you can move twice as far as normal.
+
+Stand/Crouch: You can drop to the ground or get up as part of your movement. These are free actions and do not affect your movement per se, but can only be done on your turn.
+
+Leaping: As part of your movement, you can make a horizontal leap as long as half your movement rate with a successful ACROBATICS roll. If the distance is a quarter of your movement rate or less, you don’t need to roll to leap it.
+
+Door: Passing through a closed but unlocked door costs half your movement in the round. If you cannot move any further, you remain standing by the now open door. A locked door must either be picked open or broken down.
+
+Enemies: You cannot move past a standing enemy who wants to stop you. A humanoid creature of human size can block an area of roughly 2×2 meters. Monsters can block larger areas. To move past an enemy who is blocking the way, you must first bring it to the ground or reduce its HP to zero. Friendly individuals can be passed without any problem.
+
+Free Attack: If you are standing within 2 meters of an enemy and then voluntarily move away from that enemy, you must make an EVADE roll.
+
+✦ Draw Weapon: Draw, exchange, or put away
+
+a weapon kept at hand. ✦ Change Position: Throw yourself to the
+
+ground or get up. ✦ Drop Item: Drop an item on the ground. ✦ Shout: Say or shout a few words.
+
+FREE ACTIONS
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+43
+
+The roll does not count as an action, but if it fails, the enemy immediately gets to perform an additional melee attack against you – a free attack. The free attack does not count as an action and can neither be parried nor dodged. A monster that gets a free attack performs a monster attack (page 83) which also may affect other characters.
+
+Note that a free attack is triggered even if you start your movement at a distance but pass by an enemy. Moving around an enemy does not trigger a free attack, as long as you stay within 2 meters. Also note that involuntary move- ment never triggers a free attack.
+
+SNEAK ATTACK The key to winning a conflict is often to attack when the enemy least expects it.
+
+Sneak Attack: When you sneak up on someone unde- tected and perform an attack, it is called a sneak attack. It can be done with both ranged and melee weapons, but never during active combat (except with the Backstabbing heroic ability).
+
+First you make a SNEAKING roll. Moving close enough to attack in melee combat (within 2 meters for most weapons) gives you a bane. If you fail, the enemy notices you – draw initiative.
+
+If you succeed your attack counts as surprising, which means that you can choose any initiative card you want. You also get a boon on the attack, and the target can nei- ther dodge nor parry. Using a subtle weapon increases the damage by one die (for example 2D8 instead of D8). Sneak attacks are always performed individually, by one attacker against one target.
+
+Ambush: A special kind of sneak attack is an ambush – lying in wait for an enemy and attacking as it passes by. In this case, each victim makes an AWARENESS roll to spot the ambush, with a bane if the attackers are well prepared. All those who fail get the bottom cards (counting from \#10 and up), randomly drawn.
+
+FLIP THE INITIATIVE CARD
+
+Once you have had your turn in the round, you can flip the initiative card face down to make it clear to you and everyone else that your turn is over. This means that you cannot perform any reaction (such as parrying an attack) later in the round.
+
+TERRAIN The terrain where the fighting takes place can affect your movement and actions. Maps usually show what type of terrain is found in different areas.
+
+Cramped: There is little space or a low ceiling. All melee weapons except piercing weapons (page 73) and subtle weapons get a bane on all rolls.
+
+Combat can take place entirely in your imagination, with the GM describing the battlefield and specifying the distance between combatants. However, grid maps are a useful tool in combat, as they can be used to keep track of where everyone is. Each square on the map usually represents an area of 2×2 meters.
+
+Doors, walls, and ascents are also shown on the map. Complete adventures for Dragonbane include maps of important sites.
+
+As a rule, each square on the map can only be occu- pied by one person at a time, but it is possible to pass through a square where a friendly combatant is posi- tioned. Diagonal movements and attacks are allowed,
+
+COMBAT MAPS
+
+but not if both squares you want to pass between are blocked or occupied by hostile opponents.
+
+You can use miniature figures to represent com- batants on the map. The boxed Dragonbane Core Set includes a number of illustrated cardboard figures with plastic bases. You can also use painted figures of plastic or metal.
+
+Five-Foot Squares? If you are used to combat maps with 5×5 foot squares and perhaps even own a bunch of such maps, you can easily use them in Dragonbane – just use the 5×5 foot squares as if they were 2×2
+
+meters. It will not affect anything in the game.
+
+Rough: The terrain is difficult to traverse. Whenever you move, you must make an ACROBATICS roll (not an action). Failure means that you fall over and lose the rest of your movement this round.
+
+Dimly Lit: Imposes a bane on all ranged attacks.
+
+MELEE COMBAT
+
+To attack someone in melee, you generally must be within 2 meters of your target. On the grid map you need to be positioned in a square adjacent to the enemy (including diagonally). When attacking in close combat, you use the skill that covers the type of weapon you are wielding.
+
+Damage: If the attack hits, your weapon determines which dice you should roll to see how much damage you inflict on the enemy. The damage can be increased by your damage bonus and a dragon roll and decreased by armor.
+
+Damage Bonus: Your damage bonus is determined by your score in the attribute on which your weapon skill is based – AGL or STR.
+
+Weapon: You can have up to three weapons at hand. Write them down in the Weapons section on your charac- ter sheet. To attack with a weapon, it must also be drawn. Drawing a weapon kept at hand, or exchanging your drawn weapon for another weapon at hand, is a free action. Picking up another weapon from the ground or from your inventory costs a regular action.
+
+STR Requirement: Some weapons have a STR require- ment. If your STR is lower than the requirement, you get a bane on all attacks and parries with that weapon. If your Strength is less than half the requirement, you cannot use the weapon at all.
+
+Grip: Weapons require either one or two hands to use. You can only have one two-handed weapon, or two one- handed weapons (including a shield), drawn at the same
+
+time. The STR requirement of a one-handed weapon decreases by 3 if you hold it with both hands.
+
+Long Weapons: An attack with a weapon with the long feature (such as a long spear or lance) can hit enemies up to 4 meters away (two squares). With such a weapon it is also possible to attack past a friendly combatant and hit an enemy on the other side of that person.
+
+PRONE TARGETS If you are standing up but your enemy is lying on the ground, your attack gets a boon and inflicts an extra D6 damage.
+
+CRITICAL HIT By rolling a dragon when you attack, you score a critical hit. This means that a dragon roll is required to parry or dodge the attack, and that you may choose one of the following effects:
+
+✦ Roll double the amount of dice for the weapon’s
+
+damage, before adding any damage bonus and other bonuses. For example, if you get a critical hit with a broadsword (damage 2D6) and have damage bonus D4, the damage is 4D6+D4. ✦ You can immediately perform a second attack against another enemy. This additional attack is a free action. ✦ Armor has no effect against the attack, as it finds a
+
+gap or weak spot. This effect can only be chosen if the attack deals piercing damage (optional rule, below).
+
+DAMAGE TYPES
+
+There are three types of damage: slashing, If you hit an enemy with a melee attack and
+
+piercing, and bludgeoning. The damage types your STR damage bonus is equal to or higher
+
+of various weapons are listed in the weapon than your opponent’s damage bonus, you can
+
+tables in chapter 6. Some weapons, such as choose to shove the enemy up to 2 meters in
+
+swords, can inflict both slashing damage and any direction (to an adjacent square, if you are
+
+piercing damage – you must state whether using a grid map) in addition to doing damage.
+
+you stab or slash before rolling the die. The This movement does not count toward the
+
+damage type influences the effectiveness of enemy’s total movement in the round and does
+
+armor, and monsters can be resistant to cer- not trigger free attacks from anyone. Monsters
+
+tain types of damage. cannot shove or be shoved.
+
+SHOVE
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+45
+
+PARRYING When hit by an attack in close combat, you can choose to parry the attack with a drawn weapon or shield. Note that you cannot draw a weapon to parry, as free actions can only be performed on your own turn. You must declare that you are going to parry before the attacker rolls for
+
+If you roll a demon when attacking in melee combat, you miss your target and cannot push the roll. You might also suffer an additional mishap. Roll on the table below. If the result is unreasonable, the GM decides the effect.
+
+D6 EFFECT
+
+1 You drop your weapon at your feet. Picking it up
+
+is an action.
+
+2 You expose yourself to the enemy, who gets a
+
+free attack (page 43) that cannot be dodged or parried.
+
+3 Your weapon cuts so deep into an object that
+
+it gets stuck. Pulling it free requires a STR roll (counts as an action)
+
+4 You accidentally toss your weapon D3+3 meters. To pick it up you must move and then perform an action.
+
+5 You slam your weapon into something hard and
+
+damage it. Any use of the weapon gets a bane until it is repaired by an artisan.
+
+6 You hit yourself by mistake. Roll for damage as
+
+usual, but without any damage bonus.
+
+PARRY MOVEMENT
+
+If you hit a non-living object, like a door or a lock, you hit automatically – only roll for damage. Inanimate objects often have an armor rating, however (page 50).
+
+DEMON ROLL IN MELEE
+
+When successfully parrying an attack, you can move both yourself and the enemy 2 meters HITTING INANIMATE OBJECTS
+
+(one square) in any direction. These move- ments follow the usual rules, but do not count toward anyone’s movement in the round and trigger no free attacks from anyone.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+46
+
+damage. You cannot parry unarmed. It is also impossible to both parry and dodge the same attack. You can parry while prone. When parrying, you roll against your skill level for the weapon.
+
+Reaction: Parrying is a reaction, as it breaks the initiative order. It replaces your regular turn, and you must immedi- ately flip your initiative card. This means that you cannot parry if you have already had your turn in the round (but see the heroic ability Defensive).
+
+Durability: If your parry succeeds, the enemy’s attack hits your weapon or shield, and you suffer no damage. How- ever, if the damage exceeds your weapon’s durability, the weapon is damaged and cannot be used until it is repaired with a CRAFTING roll.
+
+Shield: If you have a shield drawn, you can parry with it instead of your weapon. There is no skill for shields – instead you can use any STR-based melee skill (i.e. any of them except KNIVES and STAVES) to parry with a shield.
+
+Piercing Damage: Piercing attacks can never damage a parrying weapon or shield.
+
+Monsters: As a rule, monster attacks (page 83) cannot be parried, unless otherwise specified.
+
+Rolling a Dragon when Parrying If you roll a dragon when parrying, you immediately per- form a counterattack on your opponent – an automatic hit with your weapon that cannot be dodged or parried. This does not apply if the attacker rolled a dragon as well – in that case you need a dragon just to parry, and do not get a counterattack.
+
+DODGING As an alternative to parrying, you can try to dodge when hit by an attack. You cannot parry and dodge the same attack – you must choose one or the other. You can dodge while prone. You must declare that you are dodging before your opponent rolls for damage. Roll for EVADE – on success you evade the attack and take no damage. On a failure, you are hit by the attack.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+47
+
+Reaction: Dodging is a reaction and, like parrying, requires that you have not already had your turn in the round. Once you have dodged, your turn in the round is spent and you must flip your initiative card.
+
+Movement: On a successful dodge you may, if you want, move up to 2 meters in any direction. This movement does not trigger free attacks from anyone.
+
+Monsters: As a rule, monster attacks (page 83) can be dodged, unless otherwise specified.
+
+To be successful in melee combat it is important to realize that your most precious resource is your actions – you only get one per round, including reac- tions such as dodging or parrying.
+
+If several player characters are fighting together, it is often very effective to focus on the same enemy, as that person can only parry or dodge once, which leaves them vulnerable to multiple attacks. But always remember that you too are exposed to attacks after performing your action. The heroic abilities Defensive and Lightning Fast significantly
+
+In addition to simply trying to hit the enemy, there are a few special attacks that you can use in melee combat. You must always declare that you are using a special attack before rolling the attack.
+
+Several special attacks are resolved by opposed rolls. When rolling for an NPC without the skill in question, the GM rolls against the default skill level 5 (page 33).
+
+Find Weak Spot: If your weapon is piercing, you can try to find a gap in the enemy’s armor or natu- ral armor. You get a bane on the attack, but if it hits, the enemy counts as armorless.
+
+Topple: You try to topple an enemy to the ground instead of inflicting damage. This is handled with an opposed roll between your skill level in the weapon you are using and the enemy’s EVADE. If your weapon has the toppling feature, you get a boon. The attack counts as an action for you, but not for your opponent. It cannot be dodged or parried.
+
+An effective way of using this special attack is to work together with another person – if you topple the opponent, your friend can attack the prone enemy before they can get up.
+
+Disarm: You try to disarm your enemy instead of inflicting damage. This is handled with an opposed roll between your and the enemy’s skill level in the
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+SPECIAL ATTACKS
+
+MELEE TACTICS
+
+48
+
+weapons you are using. The attack counts as an action for you, but not for your opponent. It cannot be dodged or parried. If the enemy is holding the weapon with both hands, you get a bane. If you succeed, the weapon lands D6 meters away in a direction of your choice. Picking up a weapon from the ground is an action. Disarm does not work on shields or natural weapons.
+
+Grapple: You try to grapple a humanoid enemy instead of inflicting damage. This is handled with an opposed roll between your BRAWLING and the enemy’s BRAWLING. The attack counts as an action for you, but not for your opponent. It cannot be dodged or parried.
+
+If your attempt fails, you fall to the ground. If it succeeds, both of you fall to the ground and the enemy is trapped in your grip. As long as you maintain your grip the enemy can neither move nor perform any action that requires body movement, except trying to break free. Doing so is an opposed roll between your BRAWLING and the enemy’s BRAWLING. The roll is a free action for the enemy, but not for you.
+
+While maintaining your grip, you are also unable to move or perform any action that requires body movement, except break – this counts as an unarmed attack with a boon that cannot be dodged or parried. Releasing the enemy is a free action.
+
+increase your ability to defend yourself against mul- tiple opponents.
+
+In single combat against an opponent as pow- erful as yourself, it may be wise to wait and let the enemy strike first. If their attack misses you do not need to parry or dodge, and can then perform your own attack while the enemy is unable to protect themselves. The drawback is that you surrender the initiative to your enemy, who may choose a com- pletely different action than you expected.
+
+RANGED COMBAT
+
+To use a ranged weapon, it must first be drawn (free action), just like in melee. You should preferably be positioned over 2 meters from your target (i.e. not in an adjacent square on the map). Standing 2 meters away or less gives you a bane on your attack. Roll against the skill for the weapon you are using. For throwing weapons, use the same skill as for melee attacks (such as KNIVES or SPEARS). If the attack hits, the weapon determines which dice you should roll to see how much damage it inflicts. The damage can be increased by damage bonus and a dragon roll, and decreased by armor.
+
+Damage Bonus: You get a damage bonus for ranged weapons, just as in melee. But note that crossbows do not give you a damage bonus.
+
+Range: The weapon tables on pages 74–75 specify the range of various weapons – that is, the maximum distance (in meters) at which the weapon can be used effectively. You can fire at targets up to twice the listed range, but then you get a bane.
+
+CRITICAL HIT Rolling a dragon when performing a ranged attack results in a critical hit, which means that it can only be dodged (or parried with a shield) if the opponent also rolls a dragon.
+
+If you roll a demon when performing a ranged
+
+You may also choose one of the following effects:
+
+attack, you miss your target and cannot push the roll. You may also suffer an additional mishap. Roll on the table below.
+
+✦ Your weapon’s damage is doubled, excluding the
+
+damage bonus and other bonuses. Roll twice as many dice as normal and add them up. For example, a criti- cal hit with a longbow inflicts 2D12 damage. ✦ Armor and natural armor have no effect against the
+
+attack, as it hits a gap or weak spot. This effect can
+
+D6 EFFECT
+
+only be chosen if the attack deals piercing damage (optional rule). 1 You drop your weapon at your feet. Picking it up
+
+is an action.
+
+2 You run out of arrows and must get more before
+
+you can use the weapon again. Re-roll for sling or throwing weapons.
+
+3 You hit a valuable or important item nearby. The
+
+GM decides what it is.
+
+PARRY & DODGE Parrying a ranged attack requires a shield. It works the same way as in melee combat, except that rolling a dragon does not give you a counterattack. You can dodge ranged attacks just like melee attacks.
+
+4 You break your weapon. Any use of the weapon gets a bane until it is repaired by an artisan.
+
+OBSCURED TARGETS
+
+5 You accidentally hit a random player character or
+
+friendly NPC. Roll for damage as usual, including damage bonus.
+
+6 You hit yourself by mistake. Roll for damage as
+
+usual, but without damage bonus.
+
+If your view of the target is partially obscured by an object or person, no matter if it is a friend or foe, you get a bane on your attack. On a grid map you can shoot past a person standing between you and your target, but with a bane. If the target is completely out of sight, perhaps hiding behind a wall, you cannot shoot it at all. If you are playing without a map, the GM decides whether your line of sight is par- tially or completely blocked.
+
+DEMON ROLL IN RANGED COMBAT
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+49
+
+DAMAGE
+
+Life as an adventurer is hard and risky. The rewards may be great, but the only thing you know for sure is that you will suffer all sorts of damage along the way. Taking damage reduces your hit points (HP).
+
+ARMOR Wearing leather, chainmail, or plate armor can protect your body from damage. Equipping or unequipping armor counts as an action in combat. The armor you are wearing should be written down in the Armor section on your character sheet and does not count toward your encum- brance. You can only wear one suit of armor at a time. Some armors can give you a bane on certain skill rolls or restrict your movement.
+
+Armor Rating: An armor’s effectiveness is determined by its armor rating. Whenever you take damage from a phys- ical attack, subtract the armor rating from the damage. If the damage from a melee attack is completely negated, the attacking weapon itself suffers the damage instead, which might break the weapon (see durability on page 46).
+
+Helmets: Your armor can be combined with a helmet, which can further increase your armor rating. Equipping or unequipping a helmet counts as an action. Helmets can also give you a bane when using certain skills.
+
+DEATH If your HP reaches zero, you drop to the ground and risk dying. You cannot move or perform any actions except trying to rally (below).
+
+Death Roll: On your turn in each subsequent round, you must make a death roll – a roll against your CON. The death roll cannot be pushed if that optional rule is used. Record the results of your death rolls on your character sheet. After three successful death rolls you recover D6 HP and stop making death rolls. After three failed death rolls, your player character dies. Rolling a dragon counts as two successful death rolls, and rolling a demon counts as two failures. If the combat ends, keep counting rounds until all death rolls have been made. Any failed death rolls are reset if you survive.
+
+Additional Damage: If you suffer additional damage while at zero HP, it automatically counts as a failed death roll.
+
+If the optional rule for damage types (page 45) is used, the following rules apply:
+
+✦ Leather and studded leather gain a
+
+\+2 bonus to their armor rating against blud- geoning damage. ✦ Chainmail gets a +2 bonus to its armor
+
+rating against slashing damage.
+
+If the type of damage is not stated, the armor has its normal effect.
+
+Rally: Another player character within 10 meters and ear- shot can PERSUADE you to rally and keep fighting despite having zero HP. This counts as an action. If you rally, you can continue acting as normal, but must keep making death rolls as described above. You can even try to rally yourself, rolling against your WIL with a bane (instead of PERSUASION).
+
+Saving Life: When you have zero HP, another person next to you can save your life with a successful HEALING roll. Without bandages, they get a bane to the roll. This counts as an action. Multiple attempts are allowed. If the roll succeeds, you stop making death rolls and recover D6 HP. You cannot save your own life this way, even if you have rallied (see above). Additional HEALING rolls have no effect once you are no longer at zero HP, except when resting (see page 52). Magic can save lives as well.
+
+Instant Death: You don’t record negative HP, but if a single attack reduces your HP to a negative score equal to your full HP, your player character dies instantly. Time to honor the fallen adventurer and create a new one\!
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+50
+
+DAMAGE TYPES & ARMOR
+
+When an NPC reaches zero HP, no death rolls are made – the GM decides whether the person lives or dies. However, an NPC dies if hit by an instantly killing attack, just like a player character.
+
+ZERO HP FOR NPCS
+
+SEVERE INJURIES
+
+If you have been reduced to zero HP but survived, you risk severe injuries that can take a long time to heal and even have permanent effects. Make a roll against CON. If you fail, roll on the table below.
+
+D20 INJURY EFFECT
+
+1–2 Broken nose You get a bane on all AWARENESS rolls. Healing time: D6 days.
+
+3–4 Scarred face Bane on all PERFORMANCE and PERSUASION rolls. Healing time: 2D6 days.
+
+5–6 Teeth knocked
+
+out
+
+The healing time is halved if you rest and get med- ical care for at least a shift per day from a person who makes a HEALING roll. Skill levels that are reduced by permanent injuries can be re-learned.
+
+Your PERFORMANCE and PERSUASION skills levels are permanently reduced by 2 ( to a minimum of 3).
+
+7–8 Broken ribs Bane on all skills based on STR or AGL. Healing time: D6 days.
+
+9–10 Concussion Bane on all skills based on INT. Healing time: D6 days.
+
+11–12 Deep wounds Bane on all skills based on STR or AGL, and every roll against such skill inflicts D6
+
+points of damage. Healing time: 2D6 days.
+
+13 Broken leg Your movement rate is halved. Healing time: 3D6 days.
+
+14 Broken arm You cannot use two-handed weapon, nor dual wield, and get a bane on all other actions
+
+normally using both arms, such as climbing. Healing time: 3D6 days.
+
+15 Severed toe Movement rate permanently reduced by 2 (to a minimum of 4).
+
+16 Severed finger Your skill levels in all weapon skills are permanently reduced by 1 (to a minimum of 3).
+
+17 Gouged eye Your skill level in SPOT HIDDEN is permanently reduced by 2 (to a minimum of 3).
+
+18 Nightmares Roll to resist fear (page 52) each shift you sleep. If you fail, the shift doesn’t count as
+
+slept. Healing time: 2D6 days.
+
+19 Changed
+
+personality
+
+Randomly generate a new weakness (optional rule, page 26).
+
+20 Amnesia You cannot remember who you or the other player characters are. The effect must be
+
+roleplayed. Healing time: D6 days.
+
+CONDITIONS
+
+In this game you can suffer six different conditions. Each condition gives you a bane on all rolls against a certain attribute and skill rolls based on that attribute:
+
+✦ Exhausted – STR ✦ Sickly – CON ✦ Dazed – AGL
+
+other ways as well, for example because of monster attacks or spells.
+
+Multiple Conditions: If you suffer a condition that you ✦ Angry – INT
+
+already have, you must choose another condition. If you ✦ Scared – WIL
+
+have all six conditions, you instead lose D6 WP if you ✦ Disheartened – CHA
+
+suffer another condition. If you are out of WP, you instead lose D6 HP. Suffering a Condition: The most common way to suffer conditions is to push your roll (optional rule,
+
+Healing Conditions: You can heal one condition of page 32). You must then choose a condition and
+
+your choice during a stretch rest. A shift rest heals all describe how you get it. You can suffer conditions in
+
+conditions.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+51
+
+HEALING & RESTING
+
+Lost HP and WP are recovered by resting. There are three kinds of rest – round rest, stretch rest, and shift rest. While resting, you cannot perform any actions that require die rolls or WP.
+
+Round Rest: A quick rest that lasts just a single round. During a round rest you recover only D6 WP, no HP. You can only have a round rest once per shift.
+
+Stretch Rest: A short rest that only lasts for one stretch of time. During a stretch rest you heal D6 HP, or 2D6 HP if someone else is tending to you and succeeds with a HEALING roll. The caregiver cannot rest during the same stretch and can only heal one person during the rest.
+
+During a stretch rest, you also recover D6 Willpower Points and heal a condition of your choice. If something dramatic interrupts your rest, the effects are lost. You can only have a stretch rest once per shift.
+
+Shift Rest: A shift rest lasts one full shift of time and can only take place in a safe location where there are no enemies nearby. During a shift rest you recover all your lost HP and WP and heal all conditions. If a shift rest is interrupted by combat or hard work it has no effect.
+
+Magic: Spells can allow you to heal HP more quickly than usual.
+
+OTHER HAZARDS
+
+DARKNESS In complete darkness you cannot dash (page 43) or hit enemies with ranged attacks. To attack an enemy in melee combat, you must first make an AWARENESS roll (not an action).
+
+Torches & Lanterns: A torch or lantern lights up 10 meters (five squares) in all directions. Lighting a torch or lantern is an action and requires flint and tinder or a fire to light it with, or the magic trick IGNITE (page 65). If none of these are available, you can light it with a success- ful BUSHCRAFT roll, but that takes one stretch of work. A torch or lantern is carried in one hand, which means that you cannot use two-handed weapons or a second one-handed weapon at the same time. A torch can be used as a weapon, and counts as a small wooden club that deals fire damage. Whenever you hit someone with it, you must immediately roll to see whether the flame goes out (below).
+
+A torch or lantern can burn for up to a shift of time, but they are unreliable. After each stretch, or whenever the GM wants to heighten the drama, you must roll a die (the type depends on the light source, see page 78). A result of 1 means that the flame goes out.
+
+FEAR There are many horrifying beasts lurking in the ruins and forests of Dragonbane. Such creatures can perform
+
+so-called fear attacks. Fear attacks can also be triggered by magic and other terrifying experiences.
+
+When struck by a fear attack you must immediately make a roll against WIL. The roll can be pushed (optional rule) and does not count as an action. Particularly fright- ening events can give you a bane on the roll. If the WIL roll fails, you must roll on the fear table on the next page.
+
+POISON Poisons are measured by potency. A weak poison has potency 9, a moderate poison has potency 12, and a strong poison can have potency 15 or even more. Whenever you ingest a poison, the GM makes an open opposed roll (page 33) between the potency and your CON. If the poison wins, you suffer its full effect. If you win, you only suffer the limited effect of the poison. Poison has no effect on monsters.
+
+NPCs: For poison effects on NPCs, roll against their max- imum HP, reduced by 2 for each level of the Robust heroic ability.
+
+Lethal Poison ✦ Full Effect: You take D6 damage per round, on your
+
+turn, until you reach zero HP. If you consume an anti- dote in time the effect is halted. ✦ Limited Effect: You take D6 damage on your
+
+next turn.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+52
+
+Paralyzing Poison ✦ Full Effect: You become Exhausted and must make
+
+a CON roll each turn (not an action). If it fails, you can neither move nor perform actions (not even free actions) that round. The effect wears off after one stretch or if you are given an antidote. ✦ Limited Effect: You become Exhausted.
+
+Sleeping Poison ✦ Full Effect: You become Dazed and must make a
+
+CON roll each turn (not an action). If it fails, you fall asleep and remain sleeping for one shift. Being given an antidote or taking at least one point of damage wakes you up. ✦ Limited Effect: You become Dazed.
+
+DISEASE When you are exposed to a dangerous disease, the GM makes an open opposed roll between the disease’s viru- lence rating and your CON. If you win, you resist the dis- ease. If not, you fall ill after one day – you become Sickly and lose D6 HP. While sick you cannot heal HP, WP, or conditions. Make a new roll against the disease every day, where each failure inflicts D6 damage. If you reach zero HP while sick, you die a day later. As soon as you win the opposed roll, you are fully cured – you stop rolling and can heal as usual.
+
+Healing: If someone tends to you with the HEALING skill while you are sick, that person can make the roll against the disease instead of you. The caregiver rolls for HEALING against the virulence of the disease. An herbal concoction adds a boon to the roll.
+
+FALLING Falling on a hard surface inflicts a number of D6s of bludgeoning damage equal to half of the height of the fall in meters, rounded down. A fall of less than two meters inflicts no damage. A successful ACROBATICS roll reduces the number of D6 by half (rounded up). Armor does not protect against falling damage.
+
+SWIMMING & DROWNING All player characters are decent swimmers. In water your movement rate is half your movement rate on land. No ranged attacks can be performed in water, and melee attacks are performed with a bane. More difficult under- water maneuvers, like diving for something, require a
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+53
+
+D8 EFFECT
+
+1 Enfeebled. The fear drains your energy and
+
+determination. You lose 2D6 WP (to a minimum of zero) and become Disheartened.
+
+2 Shaken. You suffer the Scared condition.
+
+3 Panting. The intense fear leaves you out of
+
+breath and makes you Exhausted.
+
+4 Pale. Your face turns white as a sheet. You and all player characters within 10 meters and in sight of you become Scared.
+
+5 Scream. You scream in horror, which causes all player characters who hear the sound to imme- diately suffer a fear attack as well. Each person only ever needs to make one WIL roll to resist the same fear attack.
+
+6 Rage. Your fear turns to anger, and you are
+
+forced to attack its source on your next turn – in melee combat if possible. You also become Angry.
+
+7 Paralyzed. You are petrified with terror and
+
+unable to move. You cannot perform any action or movement on your next turn. Make another WIL roll on each subsequent turn (not an action) to break the paralysis.
+
+8 Wild Panic. In a fit of utter panic, you flee the
+
+scene as fast as you can. On your next turn you must dash away from the source of your fear. Make another WIL roll on each subsequent turn (not an action) to stop running and act normally again.
+
+SWIMMING roll. You get a bane if you are wear ing chain- mail or plate armor.
+
+In water you must also make a SWIMMING roll after every stretch of time to stay afloat. If you are wearing chainmail or plate armor, you must roll every round. Underwater, you need to make a successful roll against CON each round to hold your breath (not an action). If the roll fails you begin to drown, taking D6 damage per round until someone rescues you. If you reach zero HP while drowning, you make death rolls as usual, but only failed rolls count.
+
+FEAR TABLE
+
+HUNGER You must eat at least one ration of food (page 103) per day. After one day without food you become famished and cannot heal HP, WP, or conditions except through magic. You also take one point of damage per day that you haven’t eaten. If you reach zero HP while famished, you die from starvation after one day. Once you have eaten a ration of food you are no longer famished and can heal normally again.
+
+COLD When the cold is bitter and you do not have enough shelter (according to the GM), you must roll BUSH CRAFT reg- ularly. You usually roll once per shift, but in extreme cold you may have to roll every stretch or even every round. If you don’t have a blanket, you get a bane to the roll, while a fur gives you a boon.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+54
+
+On failure you lose D6 HP and D6 WP, and can no longer heal these or conditions except through magic. You must then keep making rolls to withstand the cold, with the same effect if you fail. If you reach zero HP while cold, you die when it is time for the next roll. Only when you get warm, if only by a campfire, can you stop making rolls and heal normally again.
+
+SLEEP DEPRIVATION You need at least one shift of uninterrupted sleep every day. You cannot sleep in armor. After three shifts without sleep you can no longer heal WP or conditions. You heal HP as usual. You also lose D6 WP each shift you remain awake. If you reach zero WP while suffering from sleep deprivation, you collapse and sleep for at least one shift, and cannot be woken. Once you have slept at least one shift, you can heal WP and conditions normally again.
+
+RIDING ANIMALS
+
+A loyal horse or some other mount is a great asset to any adventurer. Different types of pack animals and riding animals are listed on page 81, and their stats are found on page 99.
+
+Saddlebags: The Gear lists specify how many units of weight the animal can carry.
+
+Movement: While mounted you travel twice as fast as on foot – roughly 30 kilometers per shift (page 7). All player characters are assumed to be able to get up on a horse and ride slowly, but for more advanced maneuvers a roll for RIDING is required.
+
+Combat: In order to fight on horseback, your mount must be combat trained. You may then move at your mount’s movement rate instead of your own. On horseback you fight as usual, but all attacks and parries use the lowest of your RIDING skill and the weapon skill. Also, RIDING replaces EVADE when horseback. If you don’t have a saddle, all rolls get a bane. Enemies attacking you must choose whether they target you or your mount. Melee attacks from the ground get a bane against you.
+
+Damage: Mounts heal HP just like player characters. A mount that reaches zero HP does not make death rolls, but simply dies.
+
+IMPROVISED WEAPONS
+
+Battles are sometimes fought in places where things in the environment can be used in combat – as weapons, for protection, or for movement. These improvised weapons can be lots of different things, but what they all have in common is that they normally can only be used once, after which they are consumed. Using an improvised weapon is an action and can be combined with movement.
+
+Examples of improvised weapons can be found at the end of this book, and they are printed on cards in the boxed Dragonbane Core Set.
+
+At the start of combat, the GM can randomly deter- mine D3 improvised weapons that are available – or simply decide for themselves. The GM can mark an improvised weapon’s exact location on the map, or say that it is available anywhere in the area. Once used, an improvised weapon is consumed.
+
+Complete adventures can feature new and unique improvised weapons that are connected to a certain adven- ture site.
+
+CHAPTER 4 – COMBAT & DAMAGE
+
+55
+
+MAGIC
+
+ome call magic a gift from the dragons, others a curse from the demons, and still others call it the blessing of the gods or spirits. And it is true that dragons, demons, gods, and spirits influence magic and can
+
+guide the mage who wields it, but the reality is that magic is a basic force of nature that exists throughout the physical world as well as beyond it. Gods and demons, dragons and spirits – they are all equally dependent on magic.
+
+SCHOOLS OF MAGIC
+
+Exploring magic is as much art as it is science. There are different schools of magic, each with a unique view on what magic is and how it works. There are said to be more magic schools in the world of Dragonbane, even necro- mancy and other dark arts, but the three below are the only ones available to player characters in the core game.
+
+Skills: Each school of magic is a separate secondary skill. As a newly created mage you may select one school as a trained skill (based on INT). You don’t get a base chance in magic schools that you are not trained in, even as a mage. You can learn additional schools of magic during the game (page 61).
+
+ANIMISM The world is alive. It is full of spirits and gods, and all things have a soul. Like nature itself, spirits and gods are neither good nor evil. They may not be omnipotent, but they possess great power and should be treated with respect. If you speak to them in the right way, they may lend power to your animist magic.
+
+ELEMENTALISM According to elementalists, all things in the universe consist of four elements: wind, water, earth, and fire in different combinations. The mind and spirit are associated with wind. Adaptability and creativity are linked to water. Action and energy are linked to fire, and steadfastness and determination are properties of the element earth.
+
+MENTALISM Mentalists believe that your mind and body are the center of the universe. By focusing and training your mind, you gain control of your body and the magic that flows through it and the world.
+
+GENERAL MAGIC General magic is not a school, but a collection of general spells. You can learn general spells no matter which school of magic you subscribe to.
+
+SPELLS
+
+The formulas mages use to influence and alter the world are called spells. Many spells are described later in this chapter. You either know a spell or you do not. You do not have skill levels in individual spells, only in the school. You hold your spells in your memory or grimoire.
+
+RANK Spells are divided into ranks. These have no mechanical effect, but indicate how complex and powerful spells are. As a mage you start the game with only rank 1 spells, but you can learn higher rank spells during the game.
+
+PREPARED SPELLS Spells are complicated, and the maximum number of spells you can hold prepared in your memory at the same time is equal to your base chance for INT (page 25). When you have reached your limit and want to prepare another spell, you need to replace a spell. To prepare spells, you need to study them in a grimoire. This takes a shift of time, regardless of the number of spells. It can be done during a shift rest (page 52). You can only prepare spells that you have learned (page 61). Mark your prepared spells with an X on your character sheet.
+
+CHAPTER 5 – MAGIC
+
+57
+
+MAGIC GRIMOIRE
+
+TRICKS Most mages have a grimoire, and newly created mages
+
+So-called magic tricks are minor, relatively harmless spells. automatically get one. In the grimoire, you record all the
+
+They are often the first thing a mage learns, as these simple spells you know. Recording one spell takes a shift of time.
+
+spells train their minds to handle magical power. Each You can record unreadied spells.
+
+school has its own magic tricks. The limit on prepared Once you have learned more spells than can be held
+
+spells (above) does not apply to magic tricks. Your magic prepared, your grimoire becomes crucial. In an emergency,
+
+tricks are always prepared. All magic tricks require a ges- you can cast spells directly from the grimoire, but it takes
+
+ture (below) to be cast. twice as long as normal (see below).
+
+Grimoires from other mages are also an effective way to learn new spells, should you not have a teacher. Read more about learning new magic on page 61.
+
+Lost Grimoire: If you lose your grimoire, you cannot prepare the spells you kept in it. To be able to use the unprepared spells again, you first need to get a new gri- moire and record these spells in it.
+
+CASTING SPELLS
+
+To cast a spell you must spend Willpower Points (WP) and roll against your skill level in the relevant school. Any school can be used to cast general spells. If the roll succeeds, the spell has the intended effect, as per its description. Otherwise, it has no effect. You can push the roll if this optional rule is used. Magic tricks succeed auto- matically and always cost 1 WP.
+
+Zero WP: Some spells can drain WP from another person. Hitting zero WP has no other effect than prohibiting the use of abilities that require WP.
+
+POWER LEVEL The power level of a spell indicates how much power you charge it with. The power level ranges from 1 to 3. Casting a spell costs 2 WP per power level. In other words, normal spells always cost at least 2 WP, and magic tricks always cost 1 WP. Some spells do not use power level – these always cost 2 WP.
+
+Power from the Body: If you have just one or zero WP left, you can draw power from your body if need be. But this is harmful, potentially even lethal. Roll a die of your choice (D4, D6, D8, D10, D12, or D20) before casting the spell – the result indicates how many WP you gain and must use straight away, but you also take the same amount of damage. WP not used immediately are lost. The damage
+
+As a newly created mage you may select three rank 1 spells and three magic tricks to start the game with. They must be chosen from your school of magic or general magic. You also get a grimoire where all your spells are recorded.
+
+is applied after the spell is cast. Power from the body cannot be used for healing spells.
+
+MAGIC AND METAL Metal has an anti-magical effect, which means that you cannot use magic if you are wearing metal armor or have a metal weapon at hand (page 45). This includes partially metal items such as axes, spears, studded leather, and arrows (but not staves, clubs, or slings). Items in your inventory do not count.
+
+REQUIREMENTS To cast a spell, you must fulfill one or more requirements which are specified in the description of each spell.
+
+✦ Word: The spell is activated with a chant or power
+
+word. It cannot be a whisper. ✦ Gesture: The spell is activated by making specific
+
+hand movements. ✦ Focus: The spell is activated with an item held in your
+
+hand, such as a wand, crystal ball, or amulet. ✦ Ingredient: The spell is activated using a certain ingredient, which is consumed in the process.
+
+Some spells have multiple requirements. You cannot cast a spell unless all its requirements are fulfilled.
+
+CHAPTER 5 – MAGIC
+
+58
+
+NEWLY CREATED MAGE
+
+CASTING TIME Unless otherwise stated, casting a spell always counts as an action in combat. However, there are reaction spells which are performed outside your own turn. Unlike other reac- tions in combat, such as parrying and dodging, reaction spells do not replace your regular action in the round. This means that you can cast as many of them as you want, if you have enough WP. There are also rituals, which take a stretch of time or even a shift to perform.
+
+Grimoire: Casting an unprepared spell from your gri- moire takes twice as long, which means that you must spend an extra round, stretch, or shift on preparations. Make the roll when the spell is completed. Reaction spells cannot be cast from your grimoire.
+
+RANGE Each spell has a maximum range. Unlike ranged weapons, spells cannot be used on targets outside their specified range. Personal range means that the spell only affects the person casting it.
+
+Area of Effect: Some spells affect an entire area. That area is called the area of effect. Unless stated otherwise, the area of effect always starts at the mage casting the spell.
+
+Area of effect spells can be dodged but not parried, unless stated otherwise. You can exempt one or more targets within the area from the spell’s effects, but you then get a bane on the roll.
+
+Sphere: If the range is described as sphere, the spell affects all targets within the chosen area except the mage themself.
+
+Magic items may contain one or more spells that can be activated even by non-mages. Unless stated otherwise, it takes a successful roll against LANGUAGES or any school of magic to identify the spells and be able to use them.
+
+Willpower Points: Using the spells inside a magic item still costs WP. Some magic items can store WP which you can use instead of your own. Read more on page 62.
+
+MAGIC ITEMS
+
+CHAPTER 5 – MAGIC
+
+59
+
+Cone: If the range is described as cone, the spell affects all targets within a cone-shaped area whose width at any given point equals the distance from the source of the spell. The range indicates the length of the cone.
+
+DURATION Each spell specifies the duration of its effect.
+
+✦ Instant: The effect occurs instantly and has no last-
+
+ing effect. ✦ Round: The effect lasts until your turn in the
+
+next round. ✦ Stretch: The effect lasts for one stretch of time. ✦ Shift: The effect lasts until the end of the current shift. ✦ Concentration: The effect ceases if you perform
+
+another action, take damage, or fail a WIL roll for resisting fear. If you are interrupted by a sudden distur- bance, such as a sound, you must make a WIL roll (not an action) to maintain your concentration.
+
+FAILURE, DRAGONS AND DEMONS If the roll for casting a spell fails, the spell has no effect, but you still spend your WP. You are free to describe how the failure manifests itself in the story, as long as it has no mechanical effect.
+
+Rolling a Dragon: Rolling a Dragon when you cast a spell means that your target must roll a dragon to resist, parry, or dodge the spell, and that you may choose one of the following effects:
+
+✦ The damage or range of the spell is doubled. ✦ The spell does not cost any WP. ✦ You can immediately cast another spell, but get a bane
+
+on the roll.
+
+Rolling a Demon: If you roll a Demon, you cannot push the roll. There is also a risk of something going terribly wrong – see the optional rule for magical mishaps below.
+
+A magical mishap occurs if you roll a Demon (20) when casting a spell. Roll on the table on page 60.
+
+MAGICAL MISHAP
+
+D20 MAGICAL MISHAP
+
+1 The magical powers leave you Dazed.
+
+2 The spellcasting suddenly makes you Exhausted.
+
+3 The energies take a toll on your body and make you Sickly.
+
+4 You lose control of the spell, which makes you very Angry.
+
+5 The spell subjects you to demonic visions that leave you Scared.
+
+6 You see the world beyond the veil and realize your own insignificance. You feel Disheartened.
+
+7 The magic ravages your body, inflicting D6 damage per power level.
+
+8 The spell drains your willpower and you lose D6 WP per power level.
+
+9 The spell gives rise to a magical disease with virulence 3D6. You and everyone you come into
+
+contact with during the next shift are exposed to the disease.
+
+10 Another random spell of yours is activated instead of the one you cast, with the same target
+
+and power level.
+
+11 You vomit a frog the moment you tell a lie. Roll D4 every morning. On a 1, the effect wears off. It
+
+can also be lifted with DISPEL.
+
+12 Any gold or silver you touch withers into dust. Roll D4 every morning. On a 1, the effect wears
+
+off. It can also be lifted with DISPEL.
+
+13 The spell blinds you, and you act as if in total darkness (page 52). Roll D4 every morning. On
+
+a 1, you recover. The effect can also be lifted with DISPEL.
+
+14 You are struck by amnesia and forget who you and the other player characters are. The effect
+
+must be roleplayed. Roll D4 every morning. On a 1, your memory returns.
+
+15 The spell also affects a friend or other unintended victim. A healing or helping spell affects an
+
+enemy.
+
+16 The spell backfires. An offensive spell affects you instead of the intended target. A protecting
+
+or healing spell inflicts damage instead.
+
+17 You turn into an animal. Roll D6. 1: cat, 2: fox, 3: goat, 4: wolf, 5: deer, 6: bear. You get stats
+
+according to the table on page 99 and cannot speak, but you retain your mental acuity. Roll a D4 every morning. On a 1, you revert back to your original form.
+
+18 You become one category younger, for example from adult to young. Your attributes and
+
+derived ratings change as per the table on page 24, but your skill levels do not. If you were already young, you turn into a child with −2 STR and CON, to a minimum of 3. The effect is per- manent and you age normally from your new age.
+
+19 You become one category older, for example from adult to old. Your attributes and derived rat-
+
+ings change as per the table on page 24, but your skill levels do not. If you were already old, you become very frail and get −2 STR and CON. The effect is permanent and you age normally from your new age.
+
+20 Your magic attracts a demon (page 85) from another dimension. The demon shows up within
+
+the next shift and attacks or causes some kind of trouble. The details are up to the GM.
+
+MAGICAL MISHAPS
+
+CHAPTER 5 – MAGIC
+
+60
+
+LEARNING MAGIC
+
+You can learn new spells from a teacher or grimoire. You must have a skill level in the relevant school of magic, or any school of magic for general spells.
+
+Prerequisites: Some spells have a prerequisite that must be met in order to learn them. It is usually a school of magic or knowing another spell.
+
+Teachers: The easiest (but often most expensive) way to learn a spell is from a teacher who already knows it. The lesson takes one shift, but you cannot activate the new spell until the end of the game session. You must then use an advancement mark (page 29) for the school to learn the new spell instead of trying to increase your skill level in the school. Make a roll against INT, with a boon. On success you learn the spell, otherwise you do not.
+
+Grimoires: If you are lucky, you can find spells in other mages’ grimoires. You can learn them on your own. This works the same way as with a teacher, but you roll against LANGUAGES instead of INT, without the boon.
+
+Magic Tricks: Magic tricks are easier to learn than real spells. It takes one stretch to learn a new trick from a teacher or grimoire. No advancement mark or roll is required.
+
+Schools of Magic: You can learn additional schools of magic by first acquiring the heroic ability Magic Talent (page 38), and then studying under a teacher with a skill level in the school for at least a week. At the end of the week you make a roll against INT. On a success you get your base chance (INT) as the skill level in the school. On failure you may try again after another week of study. Even non-mages can learn magic this way.
+
+SPELL LIST
+
+The following pages list all magic tricks and spells in the Dragonbane core game. First up is General Magic, followed
+
+by the three schools of Animism, Elementalism, and Mentalism.
+
+MAGIC TRICKS Fetch: You make a loose object (no heavier than weight 1) within 10 meters float to you.
+
+Flick: You give an object or creature within 10 meters a magical flick. The “attack” inflicts 1 point of damage and can, for example, shatter glass.
+
+Light: You create a bright light that shines from a focus of your choice. It illuminates a 10-meter radius area around your focus and lasts for one shift of time. The light goes out if you reach zero HP.
+
+Open/Close: You open or close an unlocked door within 10 meters that you can see.
+
+Repair Clothes: Clothes belonging to you or someone else within 10 meters are instantly repaired and cleaned.
+
+GENERAL MAGIC
+
+CHAPTER 5 – MAGIC
+
+61
+
+Sense Magic: You can sense whether the place you are in, or an item you are holding, is affected by magic – and if so, what kind of magic.
+
+DISPEL ✦ Rank: 1 ✦ Prerequisite: Any School of Magic ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Instant You cancel an ongoing spell of lower or equal power level. DISPEL can also be used to end other magical effects, if the adventure or GM allows it.
+
+PROTECTOR ✦ Rank: 1 ✦ Prerequisite: Any School of Magic ✦ Requirement: Gesture, ingredient (something to
+
+draw with) ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Shift You protect a person or place (no larger than a human) from magic. You can cast the spell on yourself. The power level of all spells cast at the person or place is reduced by the power level in PROTECTOR. You can also use the spell to protect against magical attacks from monsters (page 83). In that case, each power level reduces the number of dice rolled for damage by 1.
+
+MAGIC SHIELD ✦ Rank: 2 ✦ Prerequisite: PROTECTOR or DISPEL ✦ Requirement: Gesture ✦ Casting Time: Reaction ✦ Range: 10 meters ✦ Duration: Instant You interfere with a spell cast by another mage. This spell is a reaction and breaks the initiative order of combat, but does not replace your action in the round. You cast it after your opponent’s roll to succeed, but before any roll for damage or other effect. If it succeeds, the power level of your opponent’s spell decreases by the power level of your MAGIC SHIELD. If the result is zero or less, your oppo- nent’s spell has no effect at all. You can also use the spell to stop magical attacks from monsters (page 83). In that case, each power level reduces the number of dice rolled for damage by 1.
+
+TRANSFER ✦ Rank: 3 ✦ Prerequisite: MAGIC SHIELD ✦ Requirement: Gesture ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant You can steal WP from other humanoid creatures or transfer your WP to someone else. You can take or give a number of WP up to twice cost for casting the spell – i.e. four at power level 1, eight a power level 2, and twelve at level 3. The WP used to cast the spell are lost in the trans- fer. You can never exceed your maximum WP or go below zero, and the same goes for your subject. If they refuse the transfer, you get a bane to your roll.
+
+CHAPTER 5 – MAGIC
+
+62
+
+MAGIC SEAL ✦ Rank: 4 ✦ Prerequisite: TRANSFER ✦ Requirement: Word, gesture ✦ Casting Time: Shift ✦ Range: Touch ✦ Duration: Permanent You bind a spell to an inanimate object of your choice. The power level of MAGIC SEAL determines the power level of the bound spell. Binding a magic trick requires power level 1. When casting MAGIC SEAL you also decide how the bound spell is activated. When that happens, the spell uses WP from the person activating it. If this person cannot or will not spend their WP, the spell is not activated. MAGIC SEAL can be combined with CHARGE to give the object its own WP to use. The two rituals must then be per- formed consecutively. Activating a bound spell dissolves the MAGIC SEAL, unless the MAGIC SEAL is combined with PERMANENCE (below).
+
+CHARGE ✦ Rank: 4 ✦ Prerequisite: TRANSFER ✦ Requirement: Word, gesture ✦ Casting Time: Stretch ✦ Range: Touch ✦ Duration: Shift You transfer your WP to an inanimate object of your choice, which acts as a battery. Each power level lets you transfer up to 10 WP. Anyone in contact with the object can then use its WP instead of their own. After one shift of time, the charged WP dissipate, unless combined with PERMANENCE. CHARGE can also be combined with MAGIC SEAL (see above).
+
+PERMANENCE ✦ Rank: 5 ✦ Prerequisite: MAGIC SEAL ✦ Requirement: Word, gesture ✦ Casting Time: Shift ✦ Range: Touch ✦ Duration: Permanent This ritual is combined with another spell and makes it permanent. This costs the mage one point of WIL perma- nently (and reduces maximum WP by one). The power level of PERMANENCE must be equal to that of the spell being made permanent. PERMANENCE cannot be added to spells with instant duration. If PERMANENCE is com- bined with MAGIC SEAL, the latter becomes permanent and the bound spell can be activated any number of times.
+
+MAGIC TRICKS Birdsong: You are surrounded by lovely birdsong for one stretch of time. The birds give you a boon to AWARENESS. This trick only works outdoors.
+
+Clean: The room you are in is cleaned. All dust and dirt disappear, and the room is put in order.
+
+Cook Food: You automatically succeed at cooking food (page 103) without a BUSHCRAFT roll, and it happens instantly (one action).
+
+Floral Trail: Beautiful flowers sprout where you walk. The flowers wither after a shift.
+
+Hairstyle: You change the color, length, and style of your hair as you see fit. In some situations this can give you a boon to BLUFFING and PERSUASION rolls.
+
+ANIMAL WHISPERER ✦ Rank: 1 ✦ Prerequisite: Animism ✦ Requirement: Word
+
+ANIMISM
+
+CHAPTER 5 – MAGIC
+
+63
+
+✦ Casting Time: Stretch ✦ Range: 2 meters ✦ Duration: Instant This spell lets you talk to a bird or mammal. You can ask a number of questions equal to the power level. Animals can tell you what they have seen, heard, or smelled – but they do not perceive the world as humanoids do, and their answers are hard to interpret. The main advantage is that they never lie.
+
+BANISH ✦ Rank: 1 ✦ Prerequisite: Animism ✦ Requirement: Word, gesture, focus (holy symbol) ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Instant Demons and undead rising from their graves are a viola- tion of the natural order and must be stopped. This spell inflicts 2D8 damage on such a being. Each additional power level increases the damage by D8. Armor and natural armor have no effect, and the spell cannot be dodged or parried.
+
+ENSNARING ROOTS ✦ Rank: 1 ✦ Prerequisite: Animism ✦ Requirement: Gesture, ingredient (branches or
+
+roots nearby) ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Shift The victim is ensnared by roots and branches and is unable to move. Breaking free requires an EVADE roll – with a boon at power level 1, normally at power level 2, and with a bane at power level 3. Each attempt counts as an action in combat. Only one attempt is allowed per round, but others can help. The spell does not work on monsters.
+
+LIGHTNING FLASH ✦ Rank: 1 ✦ Prerequisite: Animism ✦ Requirement: Gesture ✦ Casting Time: Action ✦ Range: 30 meters ✦ Duration: Instant You call down a flash of lightning from the sky. If the spell is cast successfully, the target takes 2D6 damage. The lightning flash continues to another random target within 2 meters of the target, inflicting 2D4 damage. Each power level beyond the first increases the number of dice rolled for damage by one (e.g., 3D6 and 3D4 respectively at power level 2). Metal armor has no effect but the spell can be dodged or parried as a ranged attack, and if this is successfully done, no further target is hit. Indoors, the WP cost to cast the spell is doubled.
+
+TREAT WOUND ✦ Rank: 1 ✦ Prerequisite: Animism ✦ Requirement: Word ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant You heal a living creature for 2D6 HP. You can use the spell on yourself. For each power level beyond the first, the spell heals an additional D6 HP.
+
+ENGULFING FOREST ✦ Rank: 2 ✦ Prerequisite: ENSNARING ROOTS ✦ Requirement: Gesture, ingredient (branches or
+
+roots nearby) ✦ Casting Time: Action ✦ Range: 10 meters (sphere) ✦ Duration: Shift
+
+CHAPTER 5 – MAGIC
+
+64
+
+You call upon the spirits of the forest who quickly make thickets of thorns and roots shoot up from the ground in the area of effect. The area counts as rough terrain (page 44), and everyone except yourself (not monsters) who is in the area of effect when you cast the spell is ensnared by roots and branches, unable to move. Breaking free requires an EVADE roll – with a boon at power level 1, normally at power level 2, and with a bane at power level 3. Each attempt counts as an action in combat. Only one attempt is allowed per round. Other people who are not ensnared can help.
+
+LIGHTNING BOLT ✦ Rank: 2 ✦ Prerequisite: LIGHTNING FLASH ✦ Requirement: Gesture ✦ Casting Time: Action ✦ Range: 40 meters ✦ Duration: Instant You call down a great bolt of lightning on a target, who suffers 2D8 damage. The bolt continues to another random target within 2 meters of the target, inflicting 2D6 damage, and then to a third target within 2 meters, who suffers 2D4 damage. Each power level beyond the first increases the number of dice rolled for damage by one. Metal armor has no effect but the spell can be dodged or parried as a ranged attack, and if this is successfully done, no further target is hit. Indoors, the WP cost to cast the spell is doubled.
+
+HEAL WOUND ✦ Rank: 2 ✦ Prerequisite: TREAT WOUND ✦ Requirement: Word ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant You heal a living creature for 2D8 HP and one non-per- manent severe injury. You can use the spell on yourself. For each power level beyond the first, the spell heals an additional D8 HP.
+
+PURGE ✦ Rank: 2 ✦ Prerequisite: BANISH ✦ Requirement: Word, gesture, focus (holy symbol) ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Instant You exorcise a demon or undead, inflicting 2D10 damage on the unnatural creature. Each power level increases the damage by D10. Armor and natural armor have no effect,
+
+and the spell cannot be dodged or parried.
+
+SLEEP ✦ Rank: 2 ✦ Prerequisite: TREAT WOUND ✦ Requirement: Word ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant The target of the spell must succeed with a WIL roll or fall into a deep sleep for one stretch. NPCs roll against their maximum WP if this is listed, reduced by 2 for each level of the Focused heroic ability. If WP is not listed, NPCs roll against 10. If the roll succeeds, the victim still gets Dazed. The victim rolls with a boon at power level 1, normally at power level 2, and with a bane at power level 3. A sleeping person is very difficult to wake, but wakes up upon taking damage. The spell can only be used on the living and has no effect on monsters.
+
+RESTORATION ✦ Rank: 3 ✦ Prerequisite: HEAL WOUND ✦ Requirement: Word ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant You heal a living creature for 2D10 HP and any one severe injury. You can use the spell on yourself. For each power level beyond the first, the spell heals an additional D10 HP.
+
+RESURRECTION ✦ Rank: 3 ✦ Prerequisite: HEAL WOUND
+
+MAGIC TRICKS Heat/Chill: The area within 10 meters of you becomes pleasantly warm or cold. The effect protects against cold (page 54) for one shift of time.
+
+Ignite: You light or extinguish a candle, torch, or lantern within 10 meters.
+
+Puff of Smoke: An impressive puff of smoke erupts in front of you. Very popular for dramatic entrances, and can give you a boon to SNEAKING in certain situations as determined by the GM.
+
+ELEMENTALISM
+
+CHAPTER 5 – MAGIC
+
+65
+
+✦ Requirement: Word, gesture, ingredient (corpse) ✦ Casting Time: Shift ✦ Range: Touch ✦ Duration: Permanent You can channel nature’s forces to resurrect a dead person – not as undead, but truly alive. This costs the mage one
+
+point of WIL permamently (and reduces maximum WP by one). The more time that has passed since the target died, the more difficult it is. Within the same shift requires power level 1, within a day requires power level 2, and within a week requires power level 3. If over a week has passed, the body is too decomposed to be RESURRECTED. Only one attempt can be made – if it fails, the victim is permanently dead. A person brought back to life loses D3 skill levels in all CHA-based skills (to a minimum of 3).
+
+THUNDERBOLT ✦ Rank: 3 ✦ Prerequisite: LIGHTNING BOLT ✦ Requirement: Gesture ✦ Casting Time: Action ✦ Range: 50 meters ✦ Duration: Instant You call down a mighty thunderstroke on a target, who suffers 2D10 damage. The thunderstroke continues to up to three random targets within 2 meters of each other. The damage is 2D8 for the second target, 2D6 for the third, and 2D4 for the fourth. Each power level beyond the first increases the number of dice rolled for damage by one. Metal armor has no effect but the spell can be dodged or parried as a ranged attack, and if this is successfully done, no further target is hit. Indoors, the WP cost to cast the spell is doubled.
+
+FIREBALL ✦ Rank: 1 ✦ Prerequisite: Elementalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 20 meters ✦ Duration: Instant The spell sends a fireball from your hand or focus at the target. The fireball can be dodged or parried as a ranged attack. The fireball inflicts 2D6 damage on a hit and sets fire to flammable objects. Each power level beyond the first increases the damage by D6 or creates another fireball that hits another target within range.
+
+FROST ✦ Rank: 1 ✦ Prerequisite: Elementalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 4 meters (sphere) ✦ Duration: Stretch You drastically lower the temperature around you. All natural fires in the area of effect are extinguished and all living creatures lose D6 HP and D6 WP when the spell is cast, and become cold as per the rules on page 54 – they cannot heal HP or WP until they get warm.
+
+Humanoids (not monsters) in the area of effect when the spell is cast are also frozen in place and can neither move nor perform actions (not even reactions). On each turn, a frozen victim can make a STR roll (not an action) to break free. Each additional power level increases the range by 4 meters.
+
+Any water in the area of effect immediately freezes. In a river this creates an ice floe that you can walk on or use as a raft.
+
+GUST OF WIND ✦ Rank: 1 ✦ Prerequisite: Elementalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters (cone) ✦ Duration: Instant The spell summons a great gust of wind. All untethered objects and creatures up to human size in the area of effect are pushed 2D4 meter away from you and suffer the same amount of bludgeoning damage. Against a swarm (page 83) the spell deals 2D6 damage. Each additional power level increases the number of dice by one. The spell has no effect on monsters that are Large or Huge (page 83).
+
+CHAPTER 5 – MAGIC
+
+66
+
+PILLAR ✦ Rank: 1 ✦ Prerequisite: Elementalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Shift The spell raises a pillar, three meters high and one meter wide, from the ground or a stone floor. If someone is stand- ing in that spot, the victim must make an ACROBATICS roll (not an action) to avoid falling off the pillar. If the pillar is created under a low ceiling and the roll fails, the victim takes 2D6 bludgeoning damage instead. For each additional power level, the height of the pillar increases by three meters, which can mean falling damage to anyone who falls off (page 53).
+
+SHATTER ✦ Rank: 1 ✦ Prerequisite: Elementalism ✦ Requirement: Word ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant By breaking the invisible bond that holds physical matter together, you can shatter physical objects. With this spell you inflict 2D10 damage on an inanimate and non-magical item. Any armor rating has no effect. Each power level beyond the first increases the damage by D10.
+
+FIRE BLAST ✦ Rank: 2 ✦ Prerequisite: FIREBALL ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 30 meters ✦ Duration: Instant The spell sends a large fire blast from your hand or focus at the target. The fire blast can be dodged or parried as a ranged attack. The fire blast inflicts 2D8 damage on a hit and sets fire to flammable objects. Each power level beyond the first increases the damage by D8 or creates another blast that hits another target within range.
+
+STONE SHIELD ✦ Rank: 2 ✦ Prerequisite: PILLAR ✦ Requirement: Gesture, ingredient (pebbles) ✦ Casting Time: Reaction ✦ Range: Personal ✦ Duration: Instant
+
+You instantly summon a shield of stone that decreases the damage of an incoming attack by 2D6. Each additional power level decreases the damage by another D6. You can cast the spell after the roll to hit, but before rolling damage. The spell can be combined with armor.
+
+STONEWALL ✦ Rank: 2 ✦ Prerequisite: PILLAR ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Shift The spell raises a wall from the ground or a stone floor – one meter thick, two meters high, and three meters wide. Each additional power level creates another section of the same size. If someone is standing in that spot, the victim must make an ACROBATICS roll (not an action) to avoid falling off. If the wall is created under a low ceiling and the roll fails, the victim takes 2D6 bludgeoning damage instead.
+
+TIDAL WAVE ✦ Rank: 2 ✦ Prerequisite: FROST ✦ Requirement: Word, gesture, ingredient
+
+(water source) ✦ Casting Time: Action ✦ Range: 20 meters (cone) ✦ Duration: Instant You summon a great wave from a water source within range. The area of effect starts at the source, not at yourself. All untethered objects and creatures in the area of effect are pushed 2D6 meters away from the water source and suffer the same amount of bludgeoning damage. Each additional power level increases the number of dice by one.
+
+WHIRLWIND ✦ Rank: 2 ✦ Prerequisite: GUST OF WIND ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 4 meters (sphere) ✦ Duration: Instant The spell creates a mighty whirlwind around the mage. All untethered objects and creatures up to human size in the area of effect are hurled 2D4 meters away, suffer the same amount of bludgeoning damage, and land prone. Each additional power level increases the range by 4 meters and inflicts another D4 damage.
+
+If you take a bane on the roll, you can let one person in range be hurled to another spot of your choice within the spell’s range. You decide whether that person takes damage and whether they land prone.
+
+FIREBIRD ✦ Rank: 3 ✦ Prerequisite: FIRE BLAST ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 40 meters ✦ Duration: Instant The spell sends a terrifying bird of fire from your hand or focus at the target. The attack can be dodged or parried as a ranged attack. The firebird inflicts 2D10 damage on a hit and sets fire to flammable objects. Each power level beyond the first increases the damage by D10 or creates another firebird that hits another target in range.
+
+FIRESTORM ✦ Rank: 3 ✦ Prerequisite: FIRE BLAST and WHIRLWIND ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 4 meters (sphere) ✦ Duration: Instant The spell creates a whirling storm of fire around you. All targets in range suffer 2D6 damage. Each additional power level increases the range by 4 meters and inflicts another D6 damage.
+
+GNOME ✦ Rank: 3 ✦ Prerequisite: STONEWALL ✦ Requirement: Word, gesture, ingredient (stone
+
+or soil) ✦ Casting Time: Stretch ✦ Range: 4 meters ✦ Duration: Stretch The spell summons an earth elemental. The gnome takes the form of a humanoid of gray-brown sand or clay, and counts as a monster in combat (page 84). It follows its creator’s commands (free action) and acts independently with its own initiative, but must stay within sight of the mage.
+
+GNOME
+
+Movement: 8 HP: 5 per power level
+
+Armor: 4
+
+Weapons: Fists of stone. Hits automatically in melee combat (but can be dodged or par- ried) and inflicts D6 bludgeoning damage per power level.
+
+Pillar: The gnome can cast PILLAR at the same power level as its own, using the mage’s WP.
+
+SALAMANDER ✦ Rank: 3 ✦ Prerequisite: FIRE BLAST ✦ Requirement: Word, gesture, ingredient (open fire) ✦ Casting Time: Stretch ✦ Range: 4 meters ✦ Duration: Stretch The spell summons a fire elemental. The salamander takes the form of a lizard of fire, and counts as a monster in combat (page 84). It follows its creator’s commands
+
+CHAPTER 5 – MAGIC
+
+68
+
+(free action) and can act independently with its own initia- tive, but must stay within sight of the mage.
+
+SALAMANDER
+
+Movement: 12 HP: 5 per power level
+
+Armor: —
+
+Weapons: Flaming grip. Hits automatically in melee combat (but can be dodged) and inflicts D6 damage per power level. Armor has no effect.
+
+Fire Orb: The salamander can cast FIRE BLAST at the same power level as its own, using the mage’s WP.
+
+Resistance: Piercing damage is halved.
+
+Immunity: The salamander is immune to fire damage, including magical fire damage.
+
+SYLPH ✦ Rank: 3 ✦ Prerequisite: WHIRLWIND ✦ Requirement: Word, gesture ✦ Casting Time: Stretch ✦ Range: 4 meters ✦ Duration: Stretch The spell summons a wind elemental. The sylph looks like a storm cloud in the shape of a bird. It counts as a monster in combat (page 84), follows its creator’s commands (free action), and can act independently with its own ini- tiative, but must stay within sight of the mage.
+
+SYLPH
+
+Movement: 24 HP: 5 per power level
+
+Armor: —
+
+Weapons: Howling winds. Hits automatically in melee combat (but can be dodged). The attack hurls the victim D4 meters per power level and inflicts the same amount of blud- geoning damage.
+
+Gust of Wind: The sylph can cast GUST OF WIND at the same power level as its own, using the mage’s WP.
+
+Resistance: Piercing damage is halved.
+
+UNDINE ✦ Rank: 3 ✦ Prerequisite: TIDAL WAVE ✦ Requirement: Word, gesture, ingredient (water) ✦ Casting Time: Stretch ✦ Range: 4 meters ✦ Duration: Stretch The spell summons a water elemental. The undine looks like a tidal wave whose crest is shaped like a woman com- posed entirely of water. It counts as a monster in combat (page 84), follows its creator’s commands (free action), and can act independently with its own initiative, but must stay within sight of the mage.
+
+MAGIC TRICKS Lock/Unlock: Your touch locks or unlocks a non-magi- cal lock.
+
+Magic Stool: You create a round surface, roughly half a meter in diameter and height, which you can sit on or put things on. The effect lasts until you leave.
+
+Slow Fall: You slow your fall and land as light as a feather, no matter the height.
+
+FARSIGHT ✦ Rank: 1 ✦ Prerequisite: Mentalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 1 kilometer ✦ Duration: Concentration The spell lets you see and hear what is happening in a place up to one kilometer away, as if you were there in person. You must either have the place in sight or have visited it previously. Each additional power level increases the range tenfold – 10 kilometers at power level 2 and 100 kilometers at power level 3. The spell cannot be used to peer into other dimensions.
+
+MENTALISM
+
+CHAPTER 5 – MAGIC
+
+69
+
+LEVITATE ✦ Rank: 1 ✦ Prerequisite: Mentalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 6 meters ✦ Duration: Instant You levitate yourself or another person or object of up to human size and let it float up to 6 meters in any direction, after which it lands gently or drops to the ground (you decide). Each additional power level lets you levitate the target another 2 meters or levitate an additional person or object. If you try to LEVITATE an unwilling creature, you get a bane to the roll.
+
+LONGSTRIDER ✦ Rank: 1 ✦ Prerequisite: Mentalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Stretch The target’s movement rating is doubled for the duration of the effect. You can cast the spell on yourself. Each addi- tional power level lets you cast the spell on another person.
+
+UNDINE
+
+Movement: 12 HP: 5 per power level
+
+Armor: —
+
+Weapons: Wet embrace. Hits automatically in melee combat (but can be dodged) and inflicts D6 damage per power level. Armor has no effect.
+
+Tidal Wave: The undine can cast TIDAL WAVE at the same power level as its own, using the mage’s WP.
+
+Resistance: Piercing damage is halved.
+
+POWER FIST ✦ Rank: 1 ✦ Prerequisite: Mentalism ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: Personal ✦ Duration: Stretch The damage of your unarmed attacks increases by D6 per power level.
+
+STONE SKIN ✦ Rank: 1 ✦ Prerequisite: Mentalism ✦ Requirement: Word, gesture, ingredient (stone) ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Stretch The target’s skin turns hard and gray, and gains armor rating 4. Each power level beyond the first increases the armor rating by an additional 2. If you wear armor, only the highest armor rating counts.
+
+DIVINATION ✦ Rank: 2 ✦ Prerequisite: FARSIGHT ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 100 meters ✦ Duration: Instant Specify an item (“weapon”, “sword”), substance (“gold”, “air”, “water”), creature or type of creature (“Zot the mage”, “undead”, “orcs”) or phenomenon (“magic”). The spell shows
+
+you the direction to the nearest target of the specified type within the spell’s range. Each additional power level doubles the range – to 200 meters and 400 meters respectively.
+
+ENCHANT WEAPON ✦ Rank: 2 ✦ Prerequisite: POWER FIST ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Stretch The spell enchants a weapon so that result 1–2 counts as a Dragon roll when attacking and parrying with it. The weapon also counts as magical. Each power level increases the chance of rolling a Dragon by 1. In other words: 1–3 at power Level 2 and 1–4 at power level 3.
+
+CHAPTER 5 – MAGIC
+
+70
+
+MENTAL STRIKE ✦ Rank: 2 ✦ Prerequisite: POWER FIST ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Instant You can project your mental power as a powerful physical strike. The attack hurls the victim 2D6 meters away from you and inflicts the same amount of damage. Each addi- tional power level adds D6 to the roll. The spell can be dodged or parried as a ranged attack.
+
+SCRYING ✦ Rank: 2 ✦ Prerequisite: FARSIGHT ✦ Requirement: Gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Concentration You gain knowledge of past events that occurred in the place you are in, even if none alive remember what hap- pened. You gaze up to a day back in time at power level 1, a year at power level 2, and centuries at power level 3. Your visions are often cryptic and fragmented – the GM decides exactly what you see.
+
+TELEPATHY ✦ Rank: 2 ✦ Prerequisite: FARSIGHT ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Concentration You can read the surface thoughts of another person. Accessing deeper memories requires power level 2 or even more, depending on how fresh the memory is. The GM has the final say. You can also use this spell to send your own thoughts to another person.
+
+DOMINATE ✦ Rank: 3 ✦ Prerequisite: TELEPATHY ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: 10 meters ✦ Duration: Instant
+
+You can take complete control of another person’s actions. To cast the spell, make an opposed roll against the victim’s WIL. NPCs roll against their maximum WP if this is listed, reduced by 2 for each level of the Focused heroic ability. If WP is not listed, NPCs roll against 10. At power level 1 you get a bane, at power level 2 you roll normally, and at power level 3 you get a boon. If you win the roll, the victim must immediately make a movement and perform an action of your choice, except any action that requires spending WP. The victim also loses their next turn. The spell has no effect on monsters.
+
+FLIGHT ✦ Rank: 3 ✦ Prerequisite: LEVITATE ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Stretch You give yourself or another creature of up to human size the ability to fly freely with Movement rating 6. At power level 2, the Movement rating is doubled to 12. At power level 3, it is doubled again to 24. The flying individual can ignore all obstacles and is not affected by terrain.
+
+TELEPORT ✦ Rank: 3 ✦ Prerequisite: FARSIGHT ✦ Requirement: Word, gesture ✦ Casting Time: Action ✦ Range: Touch ✦ Duration: Instant With this spell you can teleport yourself up to 100 meters. You must either be able to see the destination or have visited it pre- viously. For each power level beyond the first, you can bring another human-sized creature you touch with you, or double the range. The spell cannot be used to travel between dimensions.
+
+GEAR
+
+his chapter covers various kinds of goods and services available in the world of Dragonbane and their usual cost. The tables also list the items’ weight (page 28) and mechanical effects.
+
+SUPPLY Some goods and services are rare, and the player charac- ters cannot expect to find everything they are looking for in any little village. Each listed item has a supply rating, graded on the following scale.
+
+✦ Common: Available in any village or marketplace. ✦ Uncommon: Can usually only be purchased from the
+
+artisan making it, which does not necessarily mean it will be available in every village. ✦ Rare: Must generally be specially ordered from
+
+artisans. ✦ Unique: Can only be obtained in treasure troves or
+
+from the person who found the precious item.
+
+WEAPONS & ARMOR As an adventurer, you always want a weapon close at hand – you never know where danger may be lurking. The tables
+
+on pages 74–75 list common types of weapons. The values shown in the tables are explained below.
+
+Grip indicates if you need one or two hands to wield the weapon. Read more on page 45.
+
+STR indicates how much STR you need to use the weapon effectively. Read more on page 45.
+
+ARMOR ARMOR
+
+RATING COST SUPPLY EFFECT
+
+Leather 1 2 gold Common —
+
+Studded Leather 2 10 gold Uncommon Bane on SNEAKING rolls.
+
+Chainmail 4 50 gold Uncommon Bane on EVADE and SNEAKING rolls.
+
+Plate Armor 6 500 gold Rare Bane on ACROBATICS, EVADE, and SNEAKING rolls.
+
+Open Helmet +1 12 gold Uncommon Bane on AWARENESS rolls.
+
+Great Helm +2 100 gold Rare Bane on AWARENESS and all ranged attacks.
+
+ARMOR & HELMETS
+
+CHAPTER 6 – GEAR
+
+73
+
+Damage indicates how much damage the weapon inflicts on a hit. The damage can be increased by Damage Bonus and decreased by armor.
+
+Durability determines how much damage you can parry without damaging the weapon. Read more about parrying on page 46.
+
+Range indicates the maximum range in meters at which the weapon can be used effectively. Read more on page 49.
+
+Cost indicates the weapon’s typical price. The actual price can vary depending on local supply and demand.
+
+Features indicates which features the weapon has:
+
+✦ Subtle: The weapon grants a boon and increased
+
+damage when performing sneak attacks (page 43). ✦ Long: Attacks with this melee weapon can hit an
+
+enemy up to 4 meters away (two squares). ✦ Toppling: The weapon grants a boon when trying to
+
+topple an opponent (page 48). ✦ Piercing: The weapon inflicts piercing damage, which
+
+can affect the effectiveness of armor (page 50). ✦ Slashing: The weapon inflicts slashing damage. If the
+
+weapon is both slashing and piercing, you must choose whether to slash or pierce before rolling the attack. ✦ Bludgeoning: The weapon inflicts bludgeoning damage,
+
+which affects the effectiveness of armor (page 50).
+
+Armor Rating indicates the amount of damage the armor subtracts from an attack. You can only wear one suit of armor at a time, but armor can be combined with a helmet.
+
+DURA WEAPON GRIP STR RANGE DAMAGE
+
+BILITY COST SUPPLY FEATURES
+
+Unarmed — — 2 D6 — — — Bludgeoning
+
+Blunt Object, Light 1H — STR D8 3 — — Bludgeoning, can be thrown
+
+Blunt Object, Heavy 2H 16 2 2D8 3 — — Bludgeoning
+
+Knife 1H — STR D8 6 5 silver Common Subtle, piercing,
+
+can be thrown
+
+Dagger 1H — STR D8 9 1 gold Common Subtle, piercing, slashing,
+
+can be thrown
+
+Parrying Dagger 1H — 2 D6 15 2 gold Uncommon Subtle, piercing, slashing
+
+Short Sword 1H 7 2 D10 12 8 gold Common Piercing, slashing
+
+Broadsword 1H 10 2 2D6 15 12 gold Common Piercing, slashing
+
+Longsword 1H 13 2 2D8 15 25 gold Uncommon Piercing, slashing
+
+Greatsword 2H 16 2 2D10 15 50 gold Rare Piercing, slashing
+
+Scimitar 1H 10 2 2D6 12 10 gold Uncommon Toppling, slashing
+
+Handaxe 1H 7 STR 2D6 9 2 gold Common Toppling, slashing,
+
+can be thrown
+
+Battleaxe 1H 13 2 2D8 9 10 gold Uncommon Toppling, slashing
+
+Two-Handed Axe 2H 16 2 2D10 9 25 gold Uncommon Toppling, slashing
+
+Mace 1H 7 2 2D4 12 8 gold Common Bludgeoning
+
+Morningstar 1H 13 2 2D8 12 14 gold Uncommon Bludgeoning
+
+Flail 1H 13 2 2D8 — 16 gold Uncommon Bludgeoning, toppling,
+
+cannot be used for parrying
+
+Warhammer, Light 1H 10 2 2D6 12 10 gold Uncommon Bludgeoning, toppling
+
+Warhammer, Heavy 2H 16 2 2D10 12 20 gold Uncommon Bludgeoning, toppling
+
+Wooden Club, Small 1H 7 2 D8 9 1 silver Common Bludgeoning
+
+Wooden Club, Large 2H 16 2 2D8 12 2 silver Common Bludgeoning
+
+Staff 2H 7 2 D8 9 2 silver Common Bludgeoning, toppling
+
+Short Spear 1H 7 STR×2 D10 9 5 silver Common Piercing, can be thrown
+
+Long Spear 2H 10 4 2D8 9 1 gold Common Long, piercing
+
+Lance 1H 13 4 2D10 12 12 gold Rare Long, piercing, requires
+
+combat trained mount
+
+Halberd 2H 13 4 2D8 12 20 gold Rare Long, toppling, piercing,
+
+slashing
+
+Trident 1H 10 STR 2D6 9 5 gold Uncommon Toppling, piercing,
+
+can be thrown
+
+Shield, Small 1H 7 2 D8 15 4 gold Common Bludgeoning
+
+Shield, Large 1H 13 2 D8 18 12 gold Common Bludgeoning
+
+Mastercrafted ×10 Reduces STR requirement by
+
+3, increases durability by 3
+
+MELEE WEAPONS
+
+CHAPTER 6 – GEAR
+
+74
+
+DURA BILITY COST SUPPLY FEATURES
+
+Sling 1H — 20 D8 — 1 silver Common Bludgeoning, tiny item
+
+Short Bow 2H 7 30 D10 3 25 gold Common Piercing, requires quiver
+
+Longbow 2H 13 100 D12 6 50 gold Uncommon Piercing, requires quiver
+
+Crossbow, Light 2H 7 40 2D6 6 75 gold Uncommon Piercing, requires quiver,
+
+no damage bonus
+
+Crossbow, Heavy 2H 13 60 2D8 9 200 gold Rare Piercing, requires quiver,
+
+no damage bonus
+
+Crossbow, Hand 1H 7 30 2D6 6 90 gold Rare Piercing, requires quiver,
+
+no damage bonus
+
+ITEM COST SUPPLY WEIGHT EFFECT
+
+Bagpipe 30 gold Uncommon 1 Reduces the WP cost of the Musician ability to 1 and increases
+
+range to 50 meters.
+
+Drum 4 gold Common 1 Increases the range of the Musician ability to 20 meters.
+
+Flute 2 gold Common 1 Reduces the WP cost of the Musician ability to 2.
+
+Harp 8 gold Uncommon 2 Reduces the WP cost of the Musician ability to 1.
+
+Horn 6 gold Common 1 Increases the range of the Musician ability to 100 meters.
+
+Lyre 20 gold Uncommon 1 Reduces the WP cost of the Musician ability to 1.
+
+GARMENT COST SUPPLY EFFECT
+
+Boots 2 gold Uncommon Protects against some journey mishaps (page 102).
+
+Cloak 8 silver Uncommon Protects against some journey mishaps (page 102).
+
+Fine Garments 10 gold Uncommon Boon on CHA-based skills when the GM finds it reasonable.
+
+Fur 1 gold Uncommon Boon on BUSHCRAFT for resisting cold (page 54).
+
+Rags 5 copper Common Bane on CHA-based skills when the GM finds it reasonable.
+
+Simple Clothes 5 silver Common Required to avoid a bane on CHA-based skills.
+
+WEAPON GRIP STR RANGE DAMAGE
+
+MUSICAL INSTRUMENTS
+
+RANGED WEAPONS
+
+CHAPTER 6 – GEAR
+
+CLOTHES
+
+75
+
+ITEM COST SUPPLY WEIGHT EFFECT
+
+Abacus 2 gold Common 1 Boon on INT rolls for solving mathematical problems.
+
+Blanket 5 silver Common 1 Required to avoid a bane on rolls to avoid the effects of cold
+
+(page 54).
+
+Chess Set 1 gold Common 1 Opposed roll for INT determines who wins.
+
+Dice 1 silver Common — Chance determines who wins.
+
+Field Kitchen 4 gold Common 2 Boon on BUSHCRAFT rolls for cooking (page 103).
+
+Field Ration 1 silver Common 1/4 One ration must be consumed per day, otherwise you become
+
+hungry (page 54).
+
+Grappling Hook 3 gold Common 1 Can be used to secure a rope. Can be thrown and secured with
+
+an ACROBATICS roll up to STR meters (STR × 2 with a bane).
+
+Lockpicks, Advanced
+
+20 gold Rare 1 Boon on SLEIGHT OF HAND rolls for picking locks.
+
+Lockpicks, Simple 1 gold Uncommon 1 Required to avoid a bane on SLEIGHT OF HAND rolls for
+
+picking locks.
+
+Magnifying Glass 30 gold Uncommon 1 Boon to SPOT HIDDEN rolls.
+
+Map 5 gold Uncommon — Required to avoid a bane on BUSHCRAFT rolls for leading the
+
+way during journeys.
+
+Marbles 1 gold Common 1 Can be thrown at a humanoid enemy within 10 meters, as an
+
+action. Next turn the enemy must make an EVADE roll (not an action) in order to move.
+
+Padlock 10 gold Common — Locks a door or chest. Can take 20 points of damage,
+
+armor rating 5.
+
+Perfume (10 doses)
+
+5 gold Common 1 Boon on CHA-based skill rolls when the GM finds it reasonable.
+
+Playing Cards 5 silver Uncommon — Opposed roll for BLUFFING determines who wins.
+
+Quiver of Arrows, Iron Head
+
+2 gold Common 1 Required to fire bows or crossbows.
+
+Quiver of Arrows, Wooden Head
+
+5 silver Common 1 Required to fire bows or crossbows. The effectiveness of
+
+armor is doubled.
+
+Rope, Hemp (10 meters)
+
+1 gold Common 1 Boon on ACROBATICS rolls for climbing, but the rope must be
+
+secured to something.
+
+Rope, Silk (10 meters)
+
+10 gold Uncommon — Boon on ACROBATICS rolls for climbing, but the rope must be
+
+secured to something.
+
+Saddle 10 gold Common 1 Required to avoid a bane when fighting from horseback.
+
+TRADE GOODS
+
+CHAPTER 6 – GEAR
+
+76
+
+[\#8](#8)   
+[\#9](#9)   
+[\#12](#12)   
+[\#12](#12)   
+[\#13](#13)   
+[\#17](#17)   
+[\#18](#18)   
+[\#19](#19)   
+[\#20](#20)   
+[\#21](#21)   
+[\#22](#22)   
+[\#23](#23)   
+[\#24](#24)   
+[\#25](#25)   
+[\#26](#26)   
+[\#27](#27)   
+[\#28](#28)   
+[\#28](#28)   
+[\#28](#28)   
+[\#29](#29)   
+[\#29](#29)   
+[\#30](#30)   
+[\#31](#31)   
+[\#32](#32)   
+[\#32](#32)   
+[\#33](#33)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#44](#44)   
+[\#45](#45)   
+[\#46](#46)   
+[\#49](#49)   
+[\#53](#53)   
+[\#54](#54)   
+[\#55](#55)   
+[\#56](#56)   
+[\#56](#56)   
+[\#59](#59)   
+[\#59](#59)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#132](#132)   
+[\#104](#104)   
+[\#105](#105)   
+[\#108](#108)   
+[\#108](#108)   
+[\#111](#111)   
+[\#116](#116)   
+[\#117](#117)   
+<https://freeleaguepublishing.com/en/>   
+[\#56](#56)   
+[\#56](#56)   
+[\#56](#56)   
+[\#29](#29)   
+[\#47](#47)   
+[\#33](#33)   
+[\#61](#61)   
+[\#33](#33)   
+[\#77](#77)   
+[\#85](#85)   
+[\#56](#56)   
+[\#56](#56)   
+[\#85](#85)   
+[\#33](#33)   
+[\#35](#35)   
+[\#36](#36)   
+[\#50](#50)   
+[\#53](#53)   
+[\#53](#53)   
+[\#63](#63)   
+[\#56](#56)   
+[\#36](#36)   
+[\#36](#36)   
+[\#82](#82)   
+[\#54](#54)   
+[\#107](#107)   
+[\#59](#59)   
+[\#57](#57)   
+[\#33](#33)   
+[\#47](#47)   
+[\#78](#78)   
+[\#55](#55)   
+[\#55](#55)   
+[\#57](#57)   
+[\#57](#57)   
+[\#103](#103)   
+[\#50](#50)   
+[\#53](#53)   
+[\#51](#51)   
+[\#56](#56)   
+[\#45](#45)   
+[\#107](#107)   
+[\#65](#65)   
+[\#77](#77)   
+[\#79](#79)   
+[\#77](#77)   
+[\#79](#79)   
+[\#107](#107)   
+[\#79](#79)   
+[\#107](#107)   
+[\#57](#57)   
+[\#57](#57)   
+[\#87](#87)   
+[\#45](#45)   
+[\#45](#45)   
+[\#47](#47)   
+[\#47](#47)   
+[\#49](#49)   
+[\#87](#87)   
+[\#77](#77)   
+[\#87](#87)   
+[\#47](#47)   
+[\#54](#54)   
+[\#87](#87)   
+[\#37](#37)   
+[\#78](#78)   
+[\#79](#79)   
+[\#50](#50)   
+[\#56](#56)   
+[\#49](#49)   
+[\#49](#49)   
+[\#36](#36)   
+[\#56](#56)   
+[\#30](#30)   
+[\#47](#47)   
+[\#69](#69)   
+[\#82](#82)   
+[\#57](#57)   
+[\#37](#37)   
+[\#37](#37)   
+[\#107](#107)   
+[\#85](#85)   
+[\#103](#103)   
+[\#11](#11)   
+[\#65](#65)   
+[\#29](#29)   
+[\#56](#56)   
+[\#65](#65)   
+[\#65](#65)   
+[\#49](#49)   
+[\#66](#66)   
+[\#64](#64)   
+[\#56](#56)   
+[\#103](#103)   
+[\#28](#28)   
+[\#28](#28)   
+[\#89](#89)   
+[\#33](#33)   
+[\#42](#42)   
+[\#87](#87)   
+[\#87](#87)   
+[\#87](#87)   
+[\#107](#107)   
+[\#48](#48)   
+[\#48](#48)   
+[\#58](#58)   
+[\#58](#58)   
+[\#87](#87)   
+[\#87](#87)   
+[\#57](#57)   
+[\#88](#88)   
+[\#88](#88)   
+[\#88](#88)   
+[\#88](#88)   
+[\#32](#32)   
+[\#78](#78)   
+[\#79](#79)   
+[\#49](#49)   
+[\#49](#49)   
+[\#50](#50)   
+[\#53](#53)   
+[\#47](#47)   
+[\#52](#52)   
+[\#54](#54)   
+[\#54](#54)   
+[\#106](#106)   
+[\#106](#106)   
+[\#58](#58)   
+[\#58](#58)   
+[\#107](#107)   
+[\#58](#58)   
