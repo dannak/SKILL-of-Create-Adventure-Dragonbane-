@@ -69,6 +69,10 @@ The skill, when invoked, MUST execute the following flow:
 - **`templates/monster-scaling.md`** — translates party advancement + count + difficulty target into HP/Ferocity/damage adjustments and "how many" guidance, plus when to swap monster types rather than rescale.
 - **`templates/encounter-budget.md`** — resource-pressure heuristic across a session (WP/HP/conditions burned vs. expected) so encounters total to the chosen difficulty.
 
+## Deferred work
+
+- **Bestiary ingestion comes first.** Before `templates/monster-scaling.md` and `templates/encounter-budget.md` can be written, authoritative Dragonbane bestiary content must land in `reference/`. The DM will ingest the bestiary in a separate session. Until then, these two templates are **not** to be drafted from general knowledge — fabricated HP/Ferocity/damage numbers would silently produce broken encounters. Implementation of Phase 2's two scaling templates is blocked on that ingestion. All other templates can proceed independently.
+
 ## Verification
 
 End-to-end check the skill is usable:

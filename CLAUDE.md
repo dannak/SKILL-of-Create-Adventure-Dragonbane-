@@ -53,6 +53,10 @@ templates/
 adventures/                     # Generated output — one subfolder per session (<slug>/)
 ```
 
+### Deferred / blocked work
+
+- `templates/monster-scaling.md` and `templates/encounter-budget.md` are **blocked on bestiary ingestion**. Authoritative Dragonbane bestiary content must be committed to `reference/` before these templates are written. Do not draft them from general knowledge — fabricated numbers will produce broken encounters. The DM will ingest the bestiary in a separate session.
+
 ### Key design invariants
 
 - **`reference/` drives mechanics.** Monster stats and rule excerpts committed here take precedence over the skill's general knowledge. If `reference/` is empty, the skill warns explicitly.
